@@ -1,20 +1,18 @@
-/* 年月互换 */
+/* 年月位置互换 */
 body #calendar-container .nav {
-  padding-left: var(--size-4-1);
+  padding-left: 12px;
   padding-right: 0;
-  margin-top: 1rem;
+  margin-top: 1em;
 }
 body #calendar-container .nav .title {
   display: flex;
+  align-items: center;
   flex-direction: row-reverse;
   font-weight: normal;
-  font-size: 1.2rem;
+  font-size: 1.6em;
 }
 body #calendar-container .nav .title .year {
   color: var(--text-normal);
-  letter-spacing: 0.1rem;
-  display: flex;
-  align-items: center;
 }
 body #calendar-container .nav .title .year::after {
   content: '年';
@@ -22,9 +20,23 @@ body #calendar-container .nav .title .year::after {
   margin-left: var(--size-2-1);
 }
 body #calendar-container .nav .title .month {
-  height: var(--size-4-6);
-  line-height: var(--size-4-6);
-  letter-spacing: 0.1rem;
-  font-weight: bold;
   color: var(--text-accent);
+  font-weight: bold;
+  font-size: 1.2em;
+}
+/* 右侧按钮悬浮动画 */
+body #calendar-container .nav .right-nav .arrow:hover,
+body #calendar-container .nav .right-nav .reset-button:hover {
+  color: var(--text-accent);
+  --color-arrow: var(--text-accent);
+}
+/* 日历边距和颜色调整 */
+.calendar .has-note.active .filled {
+  fill: #fff !important;
+}
+.calendar .has-note.active .hollow {
+  stroke: #fff;
+}
+.calendar tr {
+  line-height: 1.2em;
 }
