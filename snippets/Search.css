@@ -1,4 +1,3 @@
-/* === 搜索框 === */
 /* 仿 VS Code */
 body {
   /* 搜索框边框颜色 */
@@ -10,8 +9,12 @@ body {
   /* 输入框选中时阴影颜色 */
   --background-modifier-border-focus: hsl(var(--accent-h), calc(var(--accent-s) - 4%), calc(var(--accent-l) + 4%));
 }
+/* 搜索高亮 */
+.search-result-file-matched-text,
 .obsidian-search-match-highlight {
-  background-color: var(--background-secondary);
+  background-color: var(--text-selection) !important;
+  border-radius: 2px;
+  box-shadow: none !important;
 }
 .document-search-container {
   position: absolute;
