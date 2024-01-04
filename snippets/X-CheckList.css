@@ -1,0 +1,48 @@
+/* 总任务列表集和页 */
+.checklist-plugin-main {
+  overflow: hidden;
+  --checklist-listItemBackground: #fff;
+  --checklist-listItemBackground--hover: #f1f3f5;
+  --checklist-listItemMargin: 0 2px 6px 0;
+}
+/* 搜索 */
+.checklist-plugin-main .container .search {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  border-bottom: 1.5px solid #dbdbdb !important;
+}
+.checklist-plugin-main .container .search:focus {
+  border-color: var(--color-accent) !important;
+}
+/* 标题栏 */
+.checklist-plugin-main .group-header.page {
+  position: relative;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to right, var(--color-accent), #f5f5f5) 1;
+  cursor: default;
+}
+/* 标题 */
+.checklist-plugin-main .group-header.page .title {
+  cursor: pointer;
+}
+/* 单个任务 */
+.checklist-plugin-main .group li {
+  font-size: 1.06em;
+  border: 1px solid #dbdbdc;
+}
+/* 任务列表内单行省略号显示 */
+.checklist-plugin-main .compact .content {
+  min-width: 0;
+}
+.checklist-plugin-main .compact .content > p {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+/* 悬浮显示小圆圈 */
+.checklist-plugin-main .group li .checkbox:hover {
+  border-color: var(--color-accent);
+  cursor: pointer;
+}
