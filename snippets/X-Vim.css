@@ -4,7 +4,6 @@ div.status-bar-item.plugin-obsidian-vimrc-support {
   --text-color-insert: #005f87;
   --text-color-visual: white;
   --text-color-replace: white;
-
   --background-color-normal: #eeeeee;
   --background-color-insert: #eeeeee;
   --background-color-visual: #d75f00;
@@ -12,26 +11,16 @@ div.status-bar-item.plugin-obsidian-vimrc-support {
 }
 
 div.status-bar-item.plugin-obsidian-vimrc-support {
-  /* 
-    Move to bottom left corner and discard top/left/bottom space
-    from container paddings.
-   */
   order: -9999;
   margin: -4px auto -5px -5px;
 
-  /* 
-    We have the :after pseudo-element next, so padding-right
-    is not needed
-    */
   padding-right: 0px;
   padding-left: 1em;
 
-  /* Use Monospace font */
-  font-family: 'MesloLGM Nerd Font Mono'; /* !!! Needs to be a powerline font */
+  font-family: 'Maple Mono SC NF Freeze';
   font-weight: bold;
   font-size: 1.2em;
 
-  /* Clear spaces made from radius borders */
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
 }
