@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/01月/01-05 周五.md",
+                "file": "public-note/notes/Git.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -109,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/01月/01-05 周五.md",
+                "file": "public-note/notes/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024/01月/01-05 周五.md",
+                "file": "public-note/notes/Git.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,10 +195,10 @@
   },
   "active": "1976e5710ea0b7dc",
   "lastOpenFiles": [
-    "2024/01月/01-04 周四.md",
     "2024/01月/01-05 周五.md",
-    "public-note/notes/VSCode.md",
     "任务/清单.md",
+    "2024/01月/01-04 周四.md",
+    "public-note/notes/VSCode.md",
     "public-note/notes/要记得学.md",
     "public-note/notes/Ranger.md",
     "inbox/旧清单.md",
