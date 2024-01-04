@@ -1,27 +1,20 @@
 @charset "UTF-8";
 body {
   --animation: 200ms ease-in;
-
-  /*代码块语言表示颜色*/
+  /* 代码块语言表示颜色 */
   --code-language-color: #ddd;
-
-  /*行内代码颜色*/
+  /* 行内代码颜色 */
   --inline-code: var(--color-red);
-
-  /*mac标题栏灯的透明度*/
+  /* mac标题栏灯的透明度 */
   --color-opacity: 1;
-
-  /*mac标题栏背景颜色*/
+  /* mac标题栏背景颜色 */
   --code-mac-style-header-bg: #222;
-
-  /*代码块背景颜色*/
+  /* 代码块背景颜色 */
   --code-background: #eee;
-
-  /*代码块复制按钮颜色*/
+  /* 代码块复制按钮颜色 */
   --copy-button-color: #aaa;
   --copy-button-hover-color: var(--code-language-color);
-
-  /*代码块外部背景图片*/
+  /* 代码块外部背景图片 */
   --code-block-outer-image: linear-gradient(
     -30deg,
     #6dc6d6,
@@ -240,6 +233,7 @@ body:not(:has(.print)) .markdown-rendered pre .copy-code-button {
   top: var(--size-4-1);
   right: var(--size-4-1);
   z-index: 9;
+  mask-image: url();
   -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2" /><rect width="6" height="4" x="9" y="3" rx="2" /><path d="M9 12h6m-6 4h6" /></g></svg>');
 }
 body:not(:has(.print)) .markdown-rendered pre .copy-code-button:hover {
