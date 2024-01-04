@@ -1,0 +1,22 @@
+/* REVIEW: 修复 Vim 在标题块移动卡住，不一定完全解决所以待定 */
+.cm-header {
+  margin-block: unset !important;
+}
+/* 常用 2、3、4 标题，其他就不先改了 */
+.HyperMD-header {
+  padding-top: 0.1em !important;
+  border-bottom: 1px solid #dbdbdc;
+}
+.HyperMD-header.HyperMD-header-2 {
+  /* TODO: 这个值设置到 0.25 以上也会导致 gj/gk 出现卡住的问题 */
+  font-size: 1.5em;
+  line-height: 1.6;
+  border-image: linear-gradient(to right, var(--color-accent), #fff) 1;
+}
+/* 逐渐缩小 */
+.HyperMD-header.HyperMD-header-3 {
+  font-size: 1.35em;
+}
+.HyperMD-header.HyperMD-header-4 {
+  font-size: 1.2em;
+}
