@@ -1,0 +1,130 @@
+{
+  "main": {
+    "id": "af5ae43349bc6327",
+    "type": "split",
+    "children": [
+      {
+        "id": "53dd4588fa47b131",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "2023/04月/04-15 周六.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e7a20d52ecbaa121",
+    "type": "split",
+    "children": [
+      {
+        "id": "40bb3eb779e39962",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "414d1acb792b2562",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "d429d0261ddfb2f4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "测试",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bde7f41baa7b9ba7",
+    "type": "split",
+    "children": [
+      {
+        "id": "8a2d00480f07596c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ecbf38e9e7631e2c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2023/04月/04-15 周六.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1c665b284921e465",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2023/04月/04-15 周六.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "13843ab9c86a5398",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "686c238103fc331e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2023/04月/04-15 周六.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "53dd4588fa47b131",
+  "lastOpenFiles": [
+    "2023/04月/04-15 周六.md",
+    "2023/04月/04-14 周五.md",
+    "2023/05月/05-24 Wed.md"
+  ]
+}

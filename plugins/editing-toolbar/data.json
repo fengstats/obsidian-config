@@ -1,0 +1,107 @@
+{
+  "aestheticStyle": "default",
+  "positionStyle": "top",
+  "menuCommands": [
+    {
+      "id": "editing-toolbar:editor-undo",
+      "name": "undo editor",
+      "icon": "undo-glyph"
+    },
+    {
+      "id": "editing-toolbar:editor-redo",
+      "name": "redo editor",
+      "icon": "redo-glyph"
+    },
+    {
+      "id": "theme:switch",
+      "name": "更换主题",
+      "icon": "aperture"
+    },
+    {
+      "id": "editor:toggle-numbered-list",
+      "name": "Toggle numbered list",
+      "icon": "lucide-list-ordered"
+    },
+    {
+      "id": "editor:toggle-bullet-list",
+      "name": "Toggle bullet list",
+      "icon": "lucide-list"
+    },
+    {
+      "id": "editing-toolbar:editor:toggle-code",
+      "name": "Editing Toolbar: Toggle code",
+      "icon": "code-glyph"
+    },
+    {
+      "id": "editing-toolbar:codeblock",
+      "name": "Editing Toolbar: Toggle codeblock",
+      "icon": "codeblock-glyph"
+    },
+    {
+      "id": "obsidian-table-generator:create-table-genertator",
+      "name": "Table Generator: Create Table Generator",
+      "icon": "table"
+    },
+    {
+      "id": "editing-toolbar:editor:toggle-highlight",
+      "name": "Editing Toolbar: Toggle highlight",
+      "icon": "highlight-glyph"
+    },
+    {
+      "id": "editing-toolbar:change-font-color",
+      "name": "Editing Toolbar: Change font color[html]",
+      "icon": "<svg width=\"24\" height=\"24\" focusable=\"false\" fill=\"currentColor\"><g fill-rule=\"evenodd\"><path id=\"change-font-color-icon\" d=\"M3 18h18v3H3z\" style=\"fill:#2DC26B\"></path><path d=\"M8.7 16h-.8a.5.5 0 01-.5-.6l2.7-9c.1-.3.3-.4.5-.4h2.8c.2 0 .4.1.5.4l2.7 9a.5.5 0 01-.5.6h-.8a.5.5 0 01-.4-.4l-.7-2.2c0-.3-.3-.4-.5-.4h-3.4c-.2 0-.4.1-.5.4l-.7 2.2c0 .3-.2.4-.4.4zm2.6-7.6l-.6 2a.5.5 0 00.5.6h1.6a.5.5 0 00.5-.6l-.6-2c0-.3-.3-.4-.5-.4h-.4c-.2 0-.4.1-.5.4z\"></path></g></svg>"
+    },
+    {
+      "id": "editing-toolbar:workplace-fullscreen-focus",
+      "name": "Editing Toolbar: workplace-Fullscreen ",
+      "hotkeys": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "F11"
+        }
+      ],
+      "icon": "focus"
+    },
+    {
+      "id": "editing-toolbar:fullscreen-focus",
+      "name": "Editing Toolbar: Fullscreen focus mode",
+      "hotkeys": [
+        {
+          "modifiers": [
+            "Mod",
+            "Shift"
+          ],
+          "key": "F11"
+        }
+      ],
+      "icon": "fullscreen"
+    },
+    {
+      "id": "app:reload",
+      "name": "重新加载 Obsidian（不保存当前编辑内容）",
+      "icon": "lucide-rotate-ccw"
+    }
+  ],
+  "appendMethod": "body",
+  "shouldShowMenuOnSelect": false,
+  "cMenuVisibility": true,
+  "cMenuBottomValue": 4.25,
+  "cMenuNumRows": 16,
+  "cMenuWidth": 338,
+  "cMenuFontColor": "#0070c0",
+  "cMenuBackgroundColor": "#d3f8b6",
+  "autohide": true,
+  "custom_bg1": "#FFB78B8C",
+  "custom_bg2": "#CDF4698C",
+  "custom_bg3": "#A0CCF68C",
+  "custom_bg4": "#F0A7D88C",
+  "custom_bg5": "#ADEFEF8C",
+  "custom_fc1": "#D83931",
+  "custom_fc2": "#DE7802",
+  "custom_fc3": "#245BDB",
+  "custom_fc4": "#6425D0",
+  "custom_fc5": "#646A73"
+}

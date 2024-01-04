@@ -1,0 +1,4 @@
+/* 隐藏所有滚动条 */
+::-webkit-scrollbar {
+  width: 0;
+}

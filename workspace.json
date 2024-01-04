@@ -1,0 +1,243 @@
+{
+  "main": {
+    "id": "4b3af02f2678a5a5",
+    "type": "split",
+    "children": [
+      {
+        "id": "1542805c219b2eeb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e51f1a2562e471bd",
+            "type": "leaf",
+            "state": {
+              "type": "memos_view",
+              "state": {}
+            }
+          },
+          {
+            "id": "fef36336b7d78f86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "任务/清单.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1976e5710ea0b7dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024/01月/01-05 周五.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ac8b9dc7acc79e8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "public-note/notes/VSCode.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "76c8c1cd9b5d9a9f",
+    "type": "split",
+    "children": [
+      {
+        "id": "026f4c2ef0003beb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7296c3fcf5a440ca",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 326
+  },
+  "right": {
+    "id": "ec858ccaf7b88b37",
+    "type": "split",
+    "children": [
+      {
+        "id": "be683444ea5a2ab2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "afa59184a8fda2ec",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "6307d677250bfd71",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2024/01月/01-05 周五.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "081aaec84370a4e6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2024/01月/01-05 周五.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "41d02f57ba333ea9",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "a9848dffa55d040f",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "86d0b27a06348bce",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "时间机器",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "byCreatedTime"
+              }
+            }
+          },
+          {
+            "id": "61a9ed3ac81f3a9f",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 435
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": true,
+      "graph:查看关系图谱": true,
+      "canvas:新建白板": true,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": true,
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "random-note:开始漫游笔记": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "omnisearch:Omnisearch": false,
+      "fuzzy-chinese-pinyin:FuzzySearch": false,
+      "obsidian-memos:Memos": false
+    }
+  },
+  "active": "1976e5710ea0b7dc",
+  "lastOpenFiles": [
+    "2024/01月/01-04 周四.md",
+    "2024/01月/01-05 周五.md",
+    "public-note/notes/VSCode.md",
+    "任务/清单.md",
+    "public-note/notes/要记得学.md",
+    "public-note/notes/Ranger.md",
+    "inbox/旧清单.md",
+    "任务/看剧.md",
+    "public-note/notes/一些乱七八糟的推荐.md",
+    "public-note/notes/Anthony Fu - 托尼的一些工具.md",
+    "tmp/index.md",
+    "template/alipay.md",
+    "2024/01月/01-03 周三.md",
+    "任务/看书.md",
+    "public-note/notes/2024 看完的剧.md",
+    "public-note/notes/2023 看完的剧.md",
+    "public-note/notes/2023 看完的书.md",
+    "任务/喝水.md",
+    "2024/01月/未命名.md",
+    "2024/01月/未命名 1.md",
+    "index.js",
+    "inbox/练习单词发音.md",
+    "2024/01月/01-02 周二.md",
+    "2024/01月/01-01 周一.md",
+    "public-note/notes/英语随记.md",
+    "2023/每周复盘.md",
+    "public-note/notes/2023 年终总结.md",
+    "2024/01月",
+    "2024",
+    "2023/01月",
+    "public-note/notes/attachments/Pasted image 20231214191350.png",
+    "public-note/notes/attachments",
+    "public-note/notes/attachments/Pasted image 20231214191146.png",
+    "public-note/notes/attachments/Pasted image 20231214191137.png",
+    "public-note/notes/attachments/Pasted image 20231214191044.png",
+    "public-note/notes/attachments/Pasted image 20231214190957.png",
+    "public-note/notes",
+    "public-note/技术/attachments",
+    "public-note/学习",
+    "public-note/技术",
+    "public-note/软件",
+    "2023/09月/09-29 中午干饭.png",
+    "2023/12月/attachments/12-01 周五.png",
+    "2023/12月/attachments/12-01 周五 1.png"
+  ]
+}

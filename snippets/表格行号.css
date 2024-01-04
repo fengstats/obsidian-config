@@ -1,0 +1,21 @@
+/* 表格优化，From minimal theme */
+.table-line-number table:not(.calendar) {
+  counter-reset: section;
+}
+
+.table-line-number table:not(.calendar) > thead > tr > th:first-child::before {
+  content: ' ';
+  padding-right: 0.5em;
+  display: inline-block;
+  min-width: 2em;
+}
+
+.table-line-number table:not(.calendar) > tbody > tr > td:first-child::before {
+  counter-increment: section;
+  content: counter(section) ' ';
+  text-align: center;
+  padding-right: 0.5em;
+  display: inline-block;
+  min-width: 2em;
+  font-variant-numeric: tabular-nums;
+}

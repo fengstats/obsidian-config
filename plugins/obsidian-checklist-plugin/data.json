@@ -1,0 +1,15 @@
+{
+  "todoPageName": "",
+  "showChecked": false,
+  "showAllTodos": false,
+  "autoRefresh": true,
+  "subGroups": false,
+  "groupBy": "page",
+  "sortDirectionItems": "old->new",
+  "sortDirectionGroups": "a->z",
+  "sortDirectionSubGroups": "new->old",
+  "includeFiles": "{,任务/**,2024/01月/**}",
+  "lookAndFeel": "compact",
+  "_collapsedSections": [],
+  "_hiddenTags": []
+}

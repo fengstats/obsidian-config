@@ -1,0 +1,6 @@
+{
+  "folder": "2024",
+  "format": "MM月/MM-DD ddd",
+  "template": "template/diary",
+  "autorun": false
+}

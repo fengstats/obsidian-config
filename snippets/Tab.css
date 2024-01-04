@@ -1,0 +1,71 @@
+/* Tab 美化 */
+body .workspace-tab-header-container {
+  --tab-outline-width: 0px !important;
+}
+body .mod-root .workspace-tab-header-container-inner {
+  margin-top: 4px;
+  padding-bottom: 4px;
+}
+body .mod-root .workspace-tab-header {
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+}
+body .mod-root .workspace-tab-header.is-active {
+  --tab-radius-active: 6px;
+  box-shadow: var(--shadow-s);
+  /* NOTE: 多出来的边框会导致切换 Tab 时抖动 */
+  /* border: 1px solid var(--color-base-30); */
+}
+body .mod-root .workspace-tab-header .workspace-tab-header-inner-close-button {
+  padding: 2px;
+}
+body.theme-dark .mod-root .workspace-tab-header.is-active {
+  box-shadow: none;
+}
+body .workspace-split.mod-root .workspace-tab-header.is-active::before,
+body .workspace-split.mod-root .workspace-tab-header.is-active::after {
+  box-shadow: none;
+}
+body .workspace-tab-header-new-tab {
+  padding-top: var(--size-4-1);
+}
+body.tab-add-border-in-dark-mode.theme-dark .mod-root .workspace-tab-header.is-active {
+  border: 2px solid var(--text-muted);
+  box-sizing: border-box;
+}
+/* Tab 切换动画 */
+body {
+  --animation: 200ms ease-in;
+}
+body .workspace-split .workspace-tabs:not(.mod-stacked) .view-content,
+.workspace-leaf-content:not(:has(.view-content)) {
+  animation: slide-up var(--animation) forwards;
+}
+@keyframes slide-up {
+  0% {
+    transform: translateY(0%);
+    opacity: 0;
+  }
+
+  15% {
+    transform: translateY(0.1rem);
+    opacity: 0;
+  }
+
+  25% {
+    transform: translateY(0.15rem);
+  }
+
+  45% {
+    opacity: 0.5;
+  }
+
+  65% {
+    opacity: 0.7;
+  }
+
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}

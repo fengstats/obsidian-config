@@ -1,0 +1,25 @@
+.theme-light .mobile-view .memos-sidebar-wrapper {
+  transform: translateX(-340px);
+}
+/* 标签样式 */
+.theme-light .daily-memo-wrapper > .memo-content-container > .memo-content-text .tag-span {
+  padding: 2px 6px;
+  border-radius: 8px;
+  color: #5783f7;
+  background-color: #eef3fe;
+}
+/* 宽度增大 */
+.daily-memo-diary-dialog .dialog-container {
+  width: 740px !important;
+}
+.daily-memo-diary-dialog .dialog-container .dialog-content-container {
+  width: 100% !important;
+}
+
+/* 间距消除 */
+.daily-memo-diary-dialog .dialog-container .dialog-content-container .daily-memo-wrapper {
+  padding-bottom: 0 !important;
+}
+.daily-memo-diary-dialog .dialog-container .dialog-content-container .daily-memo-wrapper p a {
+  display: inline !important;
+}

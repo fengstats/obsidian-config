@@ -1,0 +1,43 @@
+{
+  "global": {
+    "traditionalChineseSupport": false,
+    "doublePinyin": "全拼",
+    "closeWithBackspace": false
+  },
+  "file": {
+    "showAttachments": false,
+    "showAllFileTypes": false,
+    "attachmentExtensions": [
+      "bmp",
+      "png",
+      "jpg",
+      "jpeg",
+      "gif",
+      "svg",
+      "webp",
+      "mp3",
+      "wav",
+      "m4a",
+      "3gp",
+      "flac",
+      "ogg",
+      "oga",
+      "opus",
+      "mp4",
+      "webm",
+      "ogv",
+      "mov",
+      "mkv",
+      "pdf"
+    ],
+    "usePathToSearch": true,
+    "useFileEditorSuggest": false,
+    "showPath": true,
+    "showTags": false,
+    "historyDisplay": "使用完整路径"
+  },
+  "other": {
+    "useTagEditorSuggest": false,
+    "devMode": false
+  }
+}

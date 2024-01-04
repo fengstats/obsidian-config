@@ -1,0 +1,31 @@
+{
+  "theme": "moonstone",
+  "translucency": false,
+  "interfaceFontFamily": "Maple UI",
+  "textFontFamily": "Maple UI,Comic Sans MS,Arial",
+  "baseFontSize": 15,
+  "enabledCssSnippets": [
+    "自定义 微调",
+    "LazyCoder",
+    "边距背景调整",
+    "Tab 栏优化",
+    "表格体验优化",
+    "fengstats",
+    "AnuExtendTheme",
+    "文内搜索优化",
+    "Editor",
+    "目录文件图标",
+    "Basic",
+    "Tab",
+    "X-Calendar",
+    "X-AnuExtendTheme",
+    "滚动条",
+    "Scrollbar"
+  ],
+  "cssTheme": "AnuPpuccin",
+  "accentColor": "",
+  "showViewHeader": false,
+  "nativeMenus": true,
+  "monospaceFontFamily": "Input Mono Freeze",
+  "baseFontSizeAction": false
+}
