@@ -16,7 +16,7 @@
   "attachmentFolderPath": "./attachments",
   "newFileFolderPath": "00 Inbox",
   "livePreview": true,
-  "defaultViewMode": "preview",
+  "defaultViewMode": "source",
   "showIndentGuide": true,
   "alwaysUpdateLinks": true,
   "focusNewTab": true,

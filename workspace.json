@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "public-note/notes/Git.md",
+                "file": "2024/01月/01-05 周五.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "public-note/notes/VSCode.md",
+                "file": "public-note/README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -55,7 +55,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -109,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "public-note/notes/Git.md",
+                "file": "public-note/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "public-note/notes/Git.md",
+                "file": "public-note/README.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "时间机器",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -193,51 +193,53 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "1976e5710ea0b7dc",
+  "active": "ac8b9dc7acc79e8b",
   "lastOpenFiles": [
     "2024/01月/01-05 周五.md",
+    "public-note/notes/图床解决方案.md",
+    "public-note/README.md",
+    "public-note/notes/常用笔记软件推荐.md",
+    "任务/看剧.md",
     "任务/清单.md",
     "2024/01月/01-04 周四.md",
-    "public-note/notes/VSCode.md",
-    "public-note/notes/要记得学.md",
-    "public-note/notes/Ranger.md",
-    "inbox/旧清单.md",
-    "任务/看剧.md",
-    "public-note/notes/一些乱七八糟的推荐.md",
-    "public-note/notes/Anthony Fu - 托尼的一些工具.md",
-    "tmp/index.md",
-    "template/alipay.md",
-    "2024/01月/01-03 周三.md",
-    "任务/看书.md",
+    "public-note/notes/2023 年终总结.md",
+    "template/diary.md",
     "public-note/notes/2024 看完的剧.md",
+    "public-note/notes/Rime.md",
+    "2024/01月/01-03 周三.md",
+    "2024/01月/01-01 周一.md",
+    "2024/01月/01-02 周二.md",
+    "inbox/attachments/neovim-visualline影响鼠标选中问题.mp4",
+    "inbox/attachments/neovim-gj与gk导致指令不丝滑问题.mp4",
+    "inbox/attachments/neovim-鼠标点击行末尾问题.mp4",
+    "2023/08月/08-01 周二.md",
+    "public-note/notes/Ranger.md",
     "public-note/notes/2023 看完的剧.md",
     "public-note/notes/2023 看完的书.md",
+    "public-note/notes/关于减肥的心路历程.md",
+    "tmp/index.md",
+    "public-note/notes/要记得学.md",
     "任务/喝水.md",
-    "2024/01月/未命名.md",
-    "2024/01月/未命名 1.md",
+    "2023/06月/attachments/theme-SpacegrayEightiesDark.png",
+    "2023/04月/attachments/Pasted image 20230420141243.png",
+    "2023/04月/attachments/Pasted image 20230420172958.png",
+    "2023/04月/attachments/Pasted image 20230420035153.png",
+    "2023/04月/attachments/Pasted image 20230417160438.png",
+    "2023/04月/attachments/Pasted image 20230420035306.png",
+    "2023/04月/attachments/Pasted image 20230420141616.png",
+    "2023/04月/attachments/Pasted image 20230420215807.png",
+    "inbox/excalidraw/Drawing 2023-06-25 17.39.40.excalidraw.md",
+    "2023/04月/attachments/Pasted image 20230421005621.png",
+    "2023/04月/attachments/Pasted image 20230421010319.png",
+    "2023/04月/attachments/听完英语发音技巧交流会有感.mp3",
+    "tmp/1.pdf",
+    "tmp/1.md",
+    "public-note/notes/前端格式化.md",
+    "public-note/notes/一些乱七八糟的推荐.md",
     "index.js",
-    "inbox/练习单词发音.md",
-    "2024/01月/01-02 周二.md",
-    "2024/01月/01-01 周一.md",
-    "public-note/notes/英语随记.md",
-    "2023/每周复盘.md",
-    "public-note/notes/2023 年终总结.md",
     "2024/01月",
     "2024",
     "2023/01月",
-    "public-note/notes/attachments/Pasted image 20231214191350.png",
-    "public-note/notes/attachments",
-    "public-note/notes/attachments/Pasted image 20231214191146.png",
-    "public-note/notes/attachments/Pasted image 20231214191137.png",
-    "public-note/notes/attachments/Pasted image 20231214191044.png",
-    "public-note/notes/attachments/Pasted image 20231214190957.png",
-    "public-note/notes",
-    "public-note/技术/attachments",
-    "public-note/学习",
-    "public-note/技术",
-    "public-note/软件",
-    "2023/09月/09-29 中午干饭.png",
-    "2023/12月/attachments/12-01 周五.png",
-    "2023/12月/attachments/12-01 周五 1.png"
+    "public-note/notes/attachments"
   ]
 }

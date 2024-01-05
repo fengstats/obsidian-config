@@ -6,6 +6,7 @@ body {
   --feng-bold-color: var(--color-accent);
   --checklist-done-color: #868e96;
   /* --tag-radius: 2em; */
+  /* 标签 */
   --tag-border-width: 0.5px;
   --tag-size: 1em;
   --tag-padding-x: 0.5em;
