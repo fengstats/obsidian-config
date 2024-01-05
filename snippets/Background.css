@@ -3,15 +3,17 @@ body {
   --file-line-width: 720px;
 }
 /* 编辑模式 */
-.workspace-leaf-content[data-mode='source'] .view-content,
-.workspace-leaf-content[data-mode='preview'] .view-content {
-  padding-top: 48px !important;
+.workspace-leaf-content[data-mode='source'] .view-content > .cm-s-obsidian > .cm-editor > .cm-scroller,
+/* 预览模式 */
+.markdown-preview-view {
+  padding-top: 48px;
   border-top: 1px solid #dddddd;
 }
 
 /* 磨砂背景：噪点图 + 背景透明 */
 .workspace-leaf-content[data-mode='source'] .view-content::before,
-.workspace-leaf-content[data-mode='preview'] .view-content::before {
+.markdown-preview-view::before {
+  /* .workspace-leaf-content[data-mode='preview'] .view-content::before { */
   position: fixed;
   inset: 0;
   content: '';
