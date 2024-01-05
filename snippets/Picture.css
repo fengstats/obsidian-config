@@ -1,0 +1,22 @@
+/* 居中显示 */
+:is(.markdown-preview-view, .markdown-rendered) img:not([class*='emoji']) {
+  margin-left: auto;
+  margin-right: auto;
+}
+.print :is(.markdown-preview-view, .markdown-rendered) img:not([class*='emoji']) {
+  display: block;
+}
+.view-content img:not([class*='emoji']) {
+  cursor: zoom-in;
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* 圆角和阴影 */
+div.cm-contentContainer > div > div.internal-embed.media-embed.image-embed.is-loaded,
+.view-content img {
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.04);
+  /* box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1); */
+}
