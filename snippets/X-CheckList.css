@@ -1,9 +1,16 @@
 /* 总任务列表集和页 */
 .checklist-plugin-main {
   overflow: hidden;
+  /* 任务列表单项 */
+  /* 背景 */
   --checklist-listItemBackground: #fff;
+  /* 悬停背景 */
   --checklist-listItemBackground--hover: #f1f3f5;
+  /* 边距 */
   --checklist-listItemMargin: 0 2px 6px 0;
+  /* 已完成颜色 */
+  --checklist-done-color: #868e96;
+  --animation: 0.1s ease-in;
 }
 /* 搜索 */
 .checklist-plugin-main .container .search {
@@ -41,8 +48,12 @@
   text-overflow: ellipsis;
   overflow: hidden;
 }
+.checklist-plugin-main .group li .checkbox {
+  transition: var(--animation);
+}
 /* 悬浮显示小圆圈 */
 .checklist-plugin-main .group li .checkbox:hover {
-  border-color: var(--color-accent);
+  /* border-color: var(--color-accent); */
+  border: 5px solid var(--color-accent);
   cursor: pointer;
 }
