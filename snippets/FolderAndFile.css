@@ -49,7 +49,7 @@
   --gray-0: #eceff4;
   --gray-1: #d8dee9;
   --gray-2: #d5d8de;
-  --gray-3: #b7bec9;
+  --gray-3: #abb2bd;
 
   --red: #bf616a;
   --orange: #d08770;
@@ -59,11 +59,22 @@
 }
 
 body {
-  /* 侧边栏目录文件名称字体大小 */
+  /* 侧边栏目录文件名称、图标字体大小 */
   --nav-item-size: 14px;
+  --animation: 0.2s ease-in;
 }
 
-/* 隐藏笔记标题，没啥用感觉 */
+/* 侧边栏竖线动画 */
+.nav-folder.mod-root .nav-folder > .nav-folder-children {
+  transition: var(--animation);
+  border-width: 1.5px;
+  border-left-color: var(--gray-3);
+}
+.nav-folder.mod-root .nav-folder > .nav-folder-children:hover {
+  border-left-color: hsla(var(--color-accent-hsl), 0.8);
+}
+
+/* 隐藏笔记标题，碍眼 */
 .nav-folder.mod-root > .nav-folder-title {
   display: none;
 }
@@ -72,7 +83,7 @@ body {
 .nav-folder-children .nav-folder-title-content,
 .nav-folder-children .nav-file-title-content {
   position: relative;
-  padding-left: 1.2em;
+  padding-left: 1.25em;
 }
 .nav-folder-children .nav-folder-title-content::before,
 .nav-folder-children .nav-file-title-content:first-child::before {
@@ -81,6 +92,7 @@ body {
   font-family: 'Material Icons';
   /* 默认展开图标 */
   content: var(--open-folder);
+  color: var(--gray-3);
 }
 /* 目录折叠图标 */
 .nav-folder-children .is-collapsed .nav-folder-title-content::before {
