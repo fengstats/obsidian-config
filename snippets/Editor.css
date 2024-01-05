@@ -1,22 +1,48 @@
-/* 标题 */
-/* REVIEW: 修复 Vim 在标题块移动卡住，不一定完全解决所以待定 */
-.cm-header {
-  margin-block: unset !important;
+body {
+  --bold-color: var(--color-accent) !important;
+  /* TODO: 忘了有什么用了，调试也没看到效果，先注释 */
+  /* --list-marker-color: hsla(var(--color-accent-hsl), 0.8); */
 }
 
-/* 内容 */
-/* 引用块的前后空白行调整 */
+/* === 链接 === */
+/* 源码模式给悬停链接加个补丁，当光标在链接行的时候，降低透明度 */
+.markdown-source-view.mod-cm6 .cm-link .cm-underline:hover {
+  opacity: 0.8;
+}
+
+/* === 内嵌代码块 === */
+/* 比如 `code` 这样 */
+.markdown-rendered code,
+.cm-s-obsidian span.cm-inline-code {
+  background-color: #e8e8e8;
+}
+
+/* === 粗体 === */
+b,
+strong,
+.cm-strong {
+  color: var(--bold-color) !important;
+}
+
+/* === 引用 === */
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote:before,
+.markdown-source-view.mod-cm6 .cm-blockquote-border:before {
+  border-width: 3px;
+  border-left-color: #d0d7de !important;
+}
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote,
+.markdown-rendered blockquote {
+  color: #656d76;
+  background-color: transparent;
+  /* 渐变背景色 */
+  /* background: linear-gradient(to right, hsla(var(--color-accent-hsl), 0.08), #fff); */
+}
+/* 前后空白行调整 */
 body {
-  --animation: 0.2s ease-in;
   --blank-line-height: 0.5;
-  /* --hover-color: #8c7ae640; */
   --hover-color: hsla(var(--color-accent-hsl), 0.4);
 }
-/* 去掉了动画，多了有点烦，后面不喜欢再改回来 */
-/* .is-live-preview [class='cm-active cm-line'] {
-  transition: var(--animation);
-} */
-/* TODO: 暂时把引用前后的空行行高直接缩减 */
+/* 直接缩减行高 */
 .is-live-preview [class='cm-line']:has(+ :is(.HyperMD-quote, .cm-callout)),
 .is-live-preview [class='cm-active cm-line']:has(+ :is(.HyperMD-quote, .cm-callout)) {
   line-height: 0.88;
@@ -24,96 +50,4 @@ body {
 .is-live-preview :is(.HyperMD-quote, .cm-callout) + [class='cm-line'],
 .is-live-preview :is(.HyperMD-quote, .cm-callout) + [class='cm-active cm-line'] {
   line-height: 0.66;
-}
-/* 列表 */
-/* 去掉已完成任务列表项的删除线 */
-.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task='x'],
-ul > li.task-list-item[data-task='x'] {
-  text-decoration: none;
-}
-/* 文内搜索框优化（仿 VS Code 搜索） */
-body {
-  /* 搜索框边框颜色 */
-  --search-border-color: var(--text-accent);
-  /* 搜索框距离页面顶部距离 */
-  --search-top: calc(var(--header-height) + var(--size-4-4));
-  /* 搜索框距离页面右侧距离 */
-  --search-right: var(--size-4-4);
-  /* 输入框选中时阴影颜色 */
-  --background-modifier-border-focus: hsl(var(--accent-h), calc(var(--accent-s) - 4%), calc(var(--accent-l) + 4%));
-}
-.obsidian-search-match-highlight {
-  background-color: var(--background-secondary);
-}
-.document-search-container {
-  position: absolute;
-  top: var(--search-top);
-  right: var(--search-right);
-  border-radius: var(--size-4-2);
-  padding: var(--size-2-3) var(--size-4-1) var(--size-2-3) 0;
-  height: fit-content;
-  border: 2px solid var(--search-border-color);
-  box-shadow: var(--shadow-s);
-  margin: 0;
-}
-.document-search-container :is(.document-search, .document-replace) {
-  align-items: center;
-  padding: 0;
-}
-.document-search-container :is(.document-search, .document-replace) button:nth-child(3) {
-  display: none;
-}
-.document-search-container :is(.document-search-input, .document-replace-input) {
-  margin-left: 6px;
-}
-.document-search-container .document-search-close-button {
-  position: relative;
-  top: 0;
-}
-.document-search-close-button {
-  height: var(--input-height);
-  width: var(--input-height);
-}
-.document-search-close-button::before {
-  content: '';
-  mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 30"><g transform="matrix(0.7071067094802856,-0.7071067094802856,0.7071067094802856,0.7071067094802856,-3.5424977926304564,6.277729735826142)"><rect x="5.806640625" y="7.4150390625" width="2" height="24" rx="1" fill="currentColor"/></g><g style="mix-blend-mode:passthrough" transform="matrix(0.7071067094802856,0.7071067094802856,-0.7071067094802856,0.7071067094802856,10.914602712669875,-14.349200366239529)"><rect x="22.7783203125" y="6.00048828125" width="2" height="24" rx="1" fill="currentColor"/></g></svg>');
-  -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 30"><g transform="matrix(0.7071067094802856,-0.7071067094802856,0.7071067094802856,0.7071067094802856,-3.5424977926304564,6.277729735826142)"><rect x="5.806640625" y="7.4150390625" width="2" height="24" rx="1" fill="currentColor"/></g><g style="mix-blend-mode:passthrough" transform="matrix(0.7071067094802856,0.7071067094802856,-0.7071067094802856,0.7071067094802856,10.914602712669875,-14.349200366239529)"><rect x="22.7783203125" y="6.00048828125" width="2" height="24" rx="1" fill="currentColor"/></g></svg>');
-  position: absolute;
-  background-color: var(--text-accent);
-  width: calc(var(--input-height) * 2 / 3);
-  height: calc(var(--input-height) * 2 / 3);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.document-search-close-button:hover {
-  background-color: var(--text-accent);
-}
-.document-search-close-button:hover::before {
-  background-color: var(--text-on-accent);
-}
-
-/* 表格 */
-
-/* 图片 */
-/* 居中显示 */
-:is(.markdown-preview-view, .markdown-rendered) img:not([class*='emoji']) {
-  margin-left: auto;
-  margin-right: auto;
-}
-.print :is(.markdown-preview-view, .markdown-rendered) img:not([class*='emoji']) {
-  display: block;
-}
-.view-content img:not([class*='emoji']) {
-  cursor: zoom-in;
-  display: block;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-/* 圆角和阴影 */
-div.cm-contentContainer > div > div.internal-embed.media-embed.image-embed.is-loaded,
-.view-content img {
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.04);
-  /* box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1); */
 }
