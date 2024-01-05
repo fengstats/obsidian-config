@@ -1,0 +1,91 @@
+body {
+  /* 和优化的颜色太割裂了 */
+  --link-external-color-hover: none;
+  /* 外部链接 ()[] */
+  --external-link: var(--color-accent);
+  /* 内部链接 [[]] */
+  --internal-link: var(--color-accent);
+}
+.is-live-preview .cm-line:not(.cm-active) .cm-hmd-internal-link,
+.markdown-preview-view .internal-link,
+.is-live-preview .cm-line:not(.cm-active) .cm-link,
+.markdown-preview-view .external-link {
+  border-radius: 4px;
+  padding: 0 2px;
+  border: 2px solid var(--c);
+  box-sizing: border-box;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2705882353), -1px -1px 4px rgba(255, 255, 255, 0.2705882353);
+  background: conic-gradient(from -135deg at 100% 50%, var(--c) 90deg, rgba(0, 0, 0, 0) 0) -2px var(--p, 1%) / var(
+        --s,
+        0%
+      ) 200% no-repeat,
+    conic-gradient(from -135deg at 1.2em 50%, rgba(0, 0, 0, 0) 90deg, var(--c) 0) calc(100% + 2px) var(--p, 1%) /
+      var(--s, 0%) 200% no-repeat !important;
+  transition: 0.3s ease-in-out, background-position 0s, padding 0s, border-radius 0s, border 0s;
+}
+.is-live-preview .cm-line:not(.cm-active) .cm-hmd-internal-link:hover,
+.markdown-preview-view .internal-link:hover,
+.is-live-preview .cm-line:not(.cm-active) .cm-link:hover,
+.markdown-preview-view .external-link:hover {
+  --p: 96%;
+  --s: calc(50% + 0.9em);
+  color: var(--background-primary) !important;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2705882353), -3px -3px 6px rgba(255, 255, 255, 0.2705882353);
+}
+.cm-link,
+.external-link {
+  color: var(--external-link) !important;
+}
+.cm-link,
+.cm-link .cm-underline,
+.external-link,
+.external-link .cm-underline {
+  text-decoration: none !important;
+}
+span.external-link {
+  display: none !important;
+}
+.is-live-preview .cm-line:not(.cm-active) .cm-link,
+.markdown-preview-view .external-link {
+  --c: var(--external-link);
+}
+
+/* 内部链接基本不用 */
+.cm-url,
+.cm-hmd-internal-link,
+.internal-link {
+  color: var(--internal-link) !important;
+}
+.cm-url,
+.cm-url .cm-underline,
+.cm-hmd-internal-link,
+.cm-hmd-internal-link .cm-underline,
+.internal-link,
+.internal-link .cm-underline {
+  text-decoration: none !important;
+}
+.internal-link {
+  padding: 0 4px;
+}
+.is-live-preview .cm-line:not(.cm-active) .cm-hmd-internal-link,
+.markdown-preview-view .internal-link {
+  --c: var(--internal-link);
+}
+.cm-formatting-link,
+.cm-formatting-link-string,
+.cm-formatting-image {
+  font-weight: 700;
+  margin: 0 2px;
+  border: none !important;
+  box-shadow: none !important;
+}
+.cm-formatting-link ~ .cm-hmd-internal-link,
+.cm-formatting-link + .cm-link,
+.cm-formatting-link-string ~ .cm-hmd-internal-link,
+.cm-formatting-link-string + .cm-link,
+.cm-formatting-image + .cm-hmd-internal-link,
+.cm-formatting-image + .cm-link {
+  box-shadow: none !important;
+  border: none !important;
+  background-color: transparent !important;
+}
