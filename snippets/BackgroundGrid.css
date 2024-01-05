@@ -1,0 +1,31 @@
+/* from blue-topaz */
+.theme-dark {
+  --bg-color-notebook: #2a2825;
+  --grid-notebook-line-color-1: #c7c7c71f;
+  --grid-notebook-line-color-2: #74747440;
+  --dotted-notebook-dot-color: #c7c7c71f;
+}
+.theme-light {
+  --bg-color-notebook: #fef9f1;
+  --grid-notebook-line-color-1: #c7c7c740;
+  --grid-notebook-line-color-2: #afafaf40;
+  --dotted-notebook-dot-color: #c7c7c780;
+}
+
+/*notebook background*/
+.markdown-reading-view .markdown-rendered,
+.markdown-source-view.mod-cm6 .cm-scroller {
+  /* background-position: left; */
+  /*  background: #2a2825;*/
+  /*  background: var(--bg-color-notebook);*/
+  background-image: linear-gradient(var(--grid-notebook-line-color-2) 1px, transparent 0),
+    linear-gradient(90deg, var(--grid-notebook-line-color-2) 1px, transparent 0),
+    linear-gradient(var(--grid-notebook-line-color-1) 1px, transparent 0),
+    linear-gradient(90deg, var(--grid-notebook-line-color-1) 1px, transparent 0);
+  background-size: 75px 75px, 75px 75px, 15px 15px, 15px 15px;
+}
+/* 是否随着滚动移动网格 */
+/* .markdown-reading-view .markdown-rendered,
+.markdown-source-view.mod-cm6 .cm-scroller {
+  background-attachment: local !important;
+} */
