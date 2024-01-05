@@ -21,11 +21,12 @@
   --draw: '\e746';
   --audio: '\e050';
   --video: '\e04b';
+  --css: '\eb93';
+  --code: '\e86f';
 
   /* Folder */
   --folder: '\e2c7';
   --open-folder: '\e2c8';
-  --code: '\e86f';
   --computer: '\e30a';
   --time: '\e88b';
   --inbox: '\e97f';
@@ -128,4 +129,8 @@ body {
 .nav-file-title[data-path*='.mp4'] .nav-file-title-content::before {
   content: var(--video);
   color: var(--orange);
+}
+.nav-file-title[data-path*='.css'] .nav-file-title-content::before {
+  content: var(--code);
+  color: var(--yellow);
 }
