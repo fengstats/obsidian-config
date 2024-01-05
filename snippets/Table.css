@@ -1,0 +1,99 @@
+body {
+  /* 表格圆角大小 */
+  --table-radius: var(--size-2-3);
+  /* 表格按钮颜色 */
+  --table-btn-color: #fff;
+  /* 表格按钮背景色 */
+  --table-btn-bg: #ddd;
+  /* 表格头背景色 */
+  --table-header-bg: #f4f4f4;
+  /* 表格隔行背景色 */
+  --table-alt-line-bg: #f4f4f4;
+  /* 动画时间 */
+  --animation: 200ms var(--anim-motion-smooth);
+}
+
+.markdown-rendered table {
+  border-collapse: initial;
+  border-spacing: 0;
+}
+
+:is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) {
+  --table-white-space: break-all;
+  width: 100%;
+}
+:is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) .table-editor {
+  width: 100%;
+}
+:is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) .table-col-btn {
+  border-top-right-radius: var(--table-radius);
+  border-bottom-right-radius: var(--table-radius);
+  color: var(--table-btn-color);
+}
+:is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) .table-row-btn {
+  border-bottom-left-radius: var(--table-radius);
+  border-bottom-right-radius: var(--table-radius);
+  color: var(--table-btn-color);
+}
+:is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table)
+  :is(.table-col-btn, .table-row-btn, .table-col-drag-handle:hover, .table-row-drag-handle:hover) {
+  transition: var(--animation);
+  background-color: var(--table-btn-bg);
+  --table-drag-handle-color: var(--table-btn-color);
+}
+:is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table)
+  :is(tr:hover .table-row-drag-handle, th:hover .table-col-drag-handle) {
+  opacity: 1;
+}
+:is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table)
+  th:first-child:not(:has(:is(.table-row-drag-handle, .table-col-drag-handle):hover)) {
+  border-top-left-radius: var(--table-radius);
+}
+:is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table)
+  th:last-child:not(:has(.table-col-drag-handle:hover)) {
+  border-top-right-radius: var(--table-radius);
+}
+:is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):has(.table-col-btn:hover)
+  th:last-child {
+  border-top-right-radius: 0;
+}
+:is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table)
+  tr:last-child
+  td:first-child {
+  border-bottom-left-radius: var(--table-radius);
+}
+:is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):has(.table-row-btn:hover)
+  tr:last-child
+  td:first-child {
+  border-bottom-left-radius: 0;
+}
+:is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table)
+  tr:last-child
+  td:last-child {
+  border-bottom-right-radius: var(--table-radius);
+}
+:is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table):has(
+    :is(.table-col-btn, .table-row-btn):hover
+  )
+  tr:last-child
+  td:last-child {
+  border-bottom-right-radius: 0;
+}
+:is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table)
+  :is(th, td):not(:first-child) {
+  border-left: 0;
+}
+:is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) tbody td {
+  border-top: 0;
+}
+:is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) thead tr {
+  background-color: var(--table-header-bg);
+}
+:is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) tbody tr:nth-of-type(2n) {
+  background-color: var(--table-alt-line-bg);
+}
+:is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table)
+  tbody
+  tr:nth-of-type(2n + 1) {
+  background-color: var(--background-primary);
+}
