@@ -1,5 +1,25 @@
+p {
+  margin: 0;
+  padding: 0;
+}
 .theme-light .mobile-view .memos-sidebar-wrapper {
   transform: translateX(-340px);
+}
+.daily-memo-diary-dialog .daily-memo-wrapper {
+  align-items: flex-end;
+}
+/* TODO: 这傻鸟 html 结构肯定写的有问题我还改不了，现在要用样式来补救，真烦 */
+.daily-memo-diary-dialog .daily-memo-wrapper .memo-content-container {
+  position: relative;
+  height: 100%;
+}
+.daily-memo-diary-dialog .daily-memo-wrapper .memo-content-container p {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 /* 标签样式 */
 .theme-light .daily-memo-wrapper > .memo-content-container > .memo-content-text .tag-span {
@@ -15,10 +35,11 @@
 .daily-memo-diary-dialog .dialog-container .dialog-content-container {
   width: 100% !important;
 }
-/* 间距消除 */
+/* 调整间距 */
 .daily-memo-diary-dialog .dialog-container .dialog-content-container .daily-memo-wrapper {
-  padding-bottom: 0 !important;
+  padding-bottom: 4px !important;
 }
+/* 消除链接换行 */
 .daily-memo-diary-dialog .dialog-container .dialog-content-container .daily-memo-wrapper p a {
   display: inline !important;
 }
