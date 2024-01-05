@@ -1,0 +1,24 @@
+body {
+  /* 复选框大小 */
+  --checkbox-size: 16px;
+  --animation: 0.3s ease-in;
+}
+
+/* 清除已完成任务列表项的删除线 */
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task='x'],
+ul > li.task-list-item[data-task='x'] {
+  text-decoration: none;
+}
+
+/* live preview 时才有动画 */
+.markdown-source-view.mod-cm6 .task-list-item-checkbox[data-task=' '] {
+  transition: var(--animation);
+}
+/* 圆角 */
+.markdown-source-view.mod-cm6 .task-list-item-checkbox {
+  border-radius: 50%;
+}
+/* 增加边框向内填充收缩留出一个空心点 */
+.markdown-source-view.mod-cm6 .task-list-item-checkbox[data-task=' ']:hover {
+  border: 4px solid var(--color-accent);
+}
