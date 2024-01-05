@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "public-note/README.md",
+                "file": "tmp/README.md.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -109,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "public-note/README.md",
+                "file": "tmp/README.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "public-note/README.md",
+                "file": "tmp/README.md.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +172,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -195,9 +195,25 @@
   },
   "active": "ac8b9dc7acc79e8b",
   "lastOpenFiles": [
+    "tmp/attachments/Pasted image 20240105220602.png",
+    "tmp/README.md.md",
+    "tmp/attachments",
+    "public-note/notes/要记得学.md",
     "2024/01月/01-05 周五.md",
-    "public-note/notes/图床解决方案.md",
+    "tmp/index.md",
+    "tmp/工程化前端神器—— husky + eslint + prettier - 提升前端代码质量指南.md",
+    "README.md",
+    "tmp/snippets/X-Vim.css",
+    "tmp/snippets/X-Calendar.css",
+    "tmp/snippets/Scrollbar.css",
+    "tmp/snippets/Picture.css",
+    "tmp/snippets/Table.css",
+    "tmp/snippets/CodeBlock.css",
+    "tmp/snippets/BackgroundGrid.css",
+    "tmp/snippets/LitstTask.css",
+    "tmp/snippets/Link.css",
     "public-note/README.md",
+    "public-note/notes/图床解决方案.md",
     "public-note/notes/常用笔记软件推荐.md",
     "任务/看剧.md",
     "任务/清单.md",
@@ -209,16 +225,11 @@
     "2024/01月/01-03 周三.md",
     "2024/01月/01-01 周一.md",
     "2024/01月/01-02 周二.md",
-    "inbox/attachments/neovim-visualline影响鼠标选中问题.mp4",
-    "inbox/attachments/neovim-gj与gk导致指令不丝滑问题.mp4",
-    "inbox/attachments/neovim-鼠标点击行末尾问题.mp4",
     "2023/08月/08-01 周二.md",
     "public-note/notes/Ranger.md",
     "public-note/notes/2023 看完的剧.md",
     "public-note/notes/2023 看完的书.md",
     "public-note/notes/关于减肥的心路历程.md",
-    "tmp/index.md",
-    "public-note/notes/要记得学.md",
     "任务/喝水.md",
     "2023/06月/attachments/theme-SpacegrayEightiesDark.png",
     "2023/04月/attachments/Pasted image 20230420141243.png",
@@ -228,18 +239,6 @@
     "2023/04月/attachments/Pasted image 20230420035306.png",
     "2023/04月/attachments/Pasted image 20230420141616.png",
     "2023/04月/attachments/Pasted image 20230420215807.png",
-    "inbox/excalidraw/Drawing 2023-06-25 17.39.40.excalidraw.md",
-    "2023/04月/attachments/Pasted image 20230421005621.png",
-    "2023/04月/attachments/Pasted image 20230421010319.png",
-    "2023/04月/attachments/听完英语发音技巧交流会有感.mp3",
-    "tmp/1.pdf",
-    "tmp/1.md",
-    "public-note/notes/前端格式化.md",
-    "public-note/notes/一些乱七八糟的推荐.md",
-    "index.js",
-    "2024/01月",
-    "2024",
-    "2023/01月",
-    "public-note/notes/attachments"
+    "2023/04月/attachments/Pasted image 20230421005621.png"
   ]
 }
