@@ -61,7 +61,7 @@
 body {
   /* 侧边栏目录文件名称、图标字体大小 */
   --nav-item-size: 14px;
-  --animation: 0.2s ease-in;
+  --animation: 0.3s ease-in;
 }
 
 /* 侧边栏竖线动画 */
