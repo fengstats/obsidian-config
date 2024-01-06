@@ -1,7 +1,5 @@
 body {
   /* --bold-color: var(--color-accent) !important; */
-  /* TODO: 忘了有什么用了，调试也没看到效果，先注释 */
-  /* --list-marker-color: hsla(var(--color-accent-hsl), 0.8); */
 
   --gray-0: #eceff4;
   --gray-1: #d8dee9;

@@ -2,6 +2,13 @@ body {
   /* 复选框大小 */
   --checkbox-size: 18px;
   --animation: 0.3s ease-in;
+  /* 有序无序列表前面符号的样式 */
+  --list-marker-color: hsla(var(--color-accent-hsl), 0.6);
+}
+
+/* 聚焦当前行时样式加深 */
+.cm-active {
+  --list-marker-color: hsla(var(--color-accent-hsl), 1);
 }
 
 /* 编辑模式 */
