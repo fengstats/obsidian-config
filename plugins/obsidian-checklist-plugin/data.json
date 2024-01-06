@@ -10,6 +10,8 @@
   "sortDirectionSubGroups": "new->old",
   "includeFiles": "{,任务/**,2024/01月/**}",
   "lookAndFeel": "compact",
-  "_collapsedSections": [],
+  "_collapsedSections": [
+    "2024/01月/01-04 周四.md"
+  ],
   "_hiddenTags": []
 }

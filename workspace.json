@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/01月/01-05 周五.md",
+                "file": "2024/01月/01-06 周六.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tmp/README.md.md",
+                "file": "任务/看剧.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -55,7 +55,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326
+    "width": 312
   },
   "right": {
     "id": "ec858ccaf7b88b37",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tmp/README.md.md",
+                "file": "2024/01月/01-06 周六.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tmp/README.md.md",
+                "file": "2024/01月/01-06 周六.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "群推荐",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -172,11 +172,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 435
+    "width": 431
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,13 +193,29 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "ac8b9dc7acc79e8b",
+  "active": "1976e5710ea0b7dc",
   "lastOpenFiles": [
-    "tmp/attachments/Pasted image 20240105220602.png",
-    "tmp/README.md.md",
-    "tmp/attachments",
-    "public-note/notes/要记得学.md",
+    "任务/看剧.md",
+    "public-note/notes/2024 看完的剧.md",
+    "2024/01月/01-06 周六.md",
+    "public-note/notes/记得要学.md",
+    "template/alipay.md",
+    "任务/清单.md",
+    "2024/01月/01-03 周三.md",
+    "2024/01月/01-02 周二.md",
+    "2024/01月/01-01 周一.md",
+    "任务/喝水.md",
     "2024/01月/01-05 周五.md",
+    "2024/01月/01-04 周四.md",
+    "2024/每周复盘.md",
+    "2023/每周复盘.md",
+    "public-note/notes/2023 年终总结.md",
+    "2023/12月/12-29 周五.md",
+    "2024/体重记录.md",
+    "2024-W01.md",
+    "tmp/README.md.md",
+    "tmp/attachments/Pasted image 20240105220602.png",
+    "tmp/attachments",
     "tmp/index.md",
     "tmp/工程化前端神器—— husky + eslint + prettier - 提升前端代码质量指南.md",
     "README.md",
@@ -215,22 +231,7 @@
     "public-note/README.md",
     "public-note/notes/图床解决方案.md",
     "public-note/notes/常用笔记软件推荐.md",
-    "任务/看剧.md",
-    "任务/清单.md",
-    "2024/01月/01-04 周四.md",
-    "public-note/notes/2023 年终总结.md",
     "template/diary.md",
-    "public-note/notes/2024 看完的剧.md",
-    "public-note/notes/Rime.md",
-    "2024/01月/01-03 周三.md",
-    "2024/01月/01-01 周一.md",
-    "2024/01月/01-02 周二.md",
-    "2023/08月/08-01 周二.md",
-    "public-note/notes/Ranger.md",
-    "public-note/notes/2023 看完的剧.md",
-    "public-note/notes/2023 看完的书.md",
-    "public-note/notes/关于减肥的心路历程.md",
-    "任务/喝水.md",
     "2023/06月/attachments/theme-SpacegrayEightiesDark.png",
     "2023/04月/attachments/Pasted image 20230420141243.png",
     "2023/04月/attachments/Pasted image 20230420172958.png",

@@ -2,14 +2,18 @@
 .checklist-plugin-main {
   overflow: hidden;
   /* 任务列表单项 */
+  /* 复选框 */
+  --checklist-checkboxSize: 18px;
   /* 背景 */
   --checklist-listItemBackground: #fff;
   /* 悬停背景 */
   --checklist-listItemBackground--hover: #f1f3f5;
   /* 边距 */
-  --checklist-listItemMargin: 0 2px 6px 0;
+  --checklist-listItemMargin: 0 3px 4px 0;
   /* 已完成颜色 */
   --checklist-done-color: #868e96;
+  /* compact 模式内容边距 */
+  --checklist-contentPadding--compact: 0;
   --animation: 0.1s ease-in;
 }
 /* 搜索 */
@@ -53,7 +57,6 @@
 }
 /* 悬浮显示小圆圈 */
 .checklist-plugin-main .group li .checkbox:hover {
-  /* border-color: var(--color-accent); */
   border: 5px solid var(--color-accent);
   cursor: pointer;
 }

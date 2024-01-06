@@ -7,7 +7,7 @@ body {
 /* 预览模式 */
 .markdown-preview-view {
   padding-top: 48px;
-  border-top: 1px solid #dddddd;
+  /* border-top: 1px solid #dddddd; */
 }
 
 /* 磨砂背景：噪点图 + 背景透明 */
