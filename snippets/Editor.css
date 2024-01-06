@@ -1,13 +1,39 @@
 body {
-  --bold-color: var(--color-accent) !important;
+  /* --bold-color: var(--color-accent) !important; */
   /* TODO: 忘了有什么用了，调试也没看到效果，先注释 */
   /* --list-marker-color: hsla(var(--color-accent-hsl), 0.8); */
+
+  --gray-0: #eceff4;
+  --gray-1: #d8dee9;
+  --gray-2: #d5d8de;
+  --gray-3: #abb2bd;
+
+  --dark-0: #2e3440;
+  --dark-1: #3b4252;
+  --dark-2: #434c5e;
+  --dark-3: #4e5768;
+
+  /* 前后空白行调整 */
+  --quote-before-line-height: 0.9;
+  --quote-after-line-height: 0.7;
+  --blank-line-height: 0.5;
+  --hover-color: hsla(var(--color-accent-hsl), 0.4);
 }
 
 /* === 链接 === */
-/* 源码模式给悬停链接加个补丁，当光标在链接行的时候，降低透明度 */
+/* 给悬停链接动画加个补丁，当光标在链接行的时候，降低透明度 */
 .markdown-source-view.mod-cm6 .cm-link .cm-underline:hover {
   opacity: 0.8;
+}
+
+/* === 有序/无序/任务列表 === */
+/* 只调整编辑模式 */
+.workspace-leaf-content[data-mode='source'] .markdown-source-view ol > li,
+.workspace-leaf-content[data-mode='source'] .markdown-source-view ul > li,
+.workspace-leaf-content[data-mode='source'] .markdown-preview-view ol > li,
+.workspace-leaf-content[data-mode='source'] .markdown-preview-view ul > li,
+.workspace-leaf-content[data-mode='source'] .mod-cm6 .HyperMD-list-line.cm-line {
+  line-height: 1.56em;
 }
 
 /* === 内嵌代码块 === */
@@ -25,29 +51,29 @@ strong,
 }
 
 /* === 引用 === */
-.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote:before,
-.markdown-source-view.mod-cm6 .cm-blockquote-border:before {
-  border-width: 3px;
-  border-left-color: #d0d7de !important;
+/* 降低 `>` 符号存在度 */
+.HyperMD-quote .cm-formatting-quote {
+  color: var(--gray-3) !important;
 }
 .markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote,
 .markdown-rendered blockquote {
-  color: #656d76;
+  color: var(--dark-3);
   background-color: transparent;
   /* 渐变背景色 */
   /* background: linear-gradient(to right, hsla(var(--color-accent-hsl), 0.08), #fff); */
 }
-/* 前后空白行调整 */
-body {
-  --blank-line-height: 0.5;
-  --hover-color: hsla(var(--color-accent-hsl), 0.4);
-}
 /* 直接缩减行高 */
 .is-live-preview [class='cm-line']:has(+ :is(.HyperMD-quote, .cm-callout)),
 .is-live-preview [class='cm-active cm-line']:has(+ :is(.HyperMD-quote, .cm-callout)) {
-  line-height: 0.88;
+  line-height: var(--quote-before-line-height) !important;
 }
 .is-live-preview :is(.HyperMD-quote, .cm-callout) + [class='cm-line'],
 .is-live-preview :is(.HyperMD-quote, .cm-callout) + [class='cm-active cm-line'] {
-  line-height: 0.66;
+  line-height: var(--quote-after-line-height) !important;
 }
+/* 调整左侧边框大小与颜色 */
+/* .markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote:before,
+.markdown-source-view.mod-cm6 .cm-blockquote-border:before {
+  border-width: 3px;
+  border-left-color: #d0d7de !important;
+} */
