@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312
+    "width": 312,
+    "collapsed": true
   },
   "right": {
     "id": "ec858ccaf7b88b37",
@@ -196,11 +197,12 @@
   "active": "1976e5710ea0b7dc",
   "lastOpenFiles": [
     "任务/看剧.md",
-    "public-note/notes/2024 看完的剧.md",
     "2024/01月/01-06 周六.md",
+    "public-note/notes/2024 看完的剧.md",
+    "tmp/index.md",
+    "任务/清单.md",
     "public-note/notes/记得要学.md",
     "template/alipay.md",
-    "任务/清单.md",
     "2024/01月/01-03 周三.md",
     "2024/01月/01-02 周二.md",
     "2024/01月/01-01 周一.md",
@@ -216,7 +218,6 @@
     "tmp/README.md.md",
     "tmp/attachments/Pasted image 20240105220602.png",
     "tmp/attachments",
-    "tmp/index.md",
     "tmp/工程化前端神器—— husky + eslint + prettier - 提升前端代码质量指南.md",
     "README.md",
     "tmp/snippets/X-Vim.css",
