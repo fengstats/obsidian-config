@@ -21,19 +21,10 @@ body {
 }
 
 /* === 链接 === */
-/* 给悬停链接动画加个补丁，当光标在链接行的时候，降低透明度 */
-.markdown-source-view.mod-cm6 .cm-link .cm-underline:hover {
+/* 部分主题下给悬停链接动画加个补丁，当光标在链接行的时候，降低透明度 */
+.cm-underline:hover,
+.external-link:hover {
   opacity: 0.8;
-}
-
-/* === 有序/无序/任务列表 === */
-/* 只调整编辑模式 */
-.workspace-leaf-content[data-mode='source'] .markdown-source-view ol > li,
-.workspace-leaf-content[data-mode='source'] .markdown-source-view ul > li,
-.workspace-leaf-content[data-mode='source'] .markdown-preview-view ol > li,
-.workspace-leaf-content[data-mode='source'] .markdown-preview-view ul > li,
-.workspace-leaf-content[data-mode='source'] .mod-cm6 .HyperMD-list-line.cm-line {
-  line-height: 1.56em;
 }
 
 /* === 内嵌代码块 === */
@@ -49,31 +40,3 @@ strong,
 .cm-strong {
   color: var(--bold-color) !important;
 }
-
-/* === 引用 === */
-/* 降低 `>` 符号存在度 */
-.HyperMD-quote .cm-formatting-quote {
-  color: var(--gray-3) !important;
-}
-.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote,
-.markdown-rendered blockquote {
-  color: var(--dark-3);
-  background-color: transparent;
-  /* 渐变背景色 */
-  /* background: linear-gradient(to right, hsla(var(--color-accent-hsl), 0.08), #fff); */
-}
-/* 直接缩减行高 */
-.is-live-preview [class='cm-line']:has(+ :is(.HyperMD-quote, .cm-callout)),
-.is-live-preview [class='cm-active cm-line']:has(+ :is(.HyperMD-quote, .cm-callout)) {
-  line-height: var(--quote-before-line-height) !important;
-}
-.is-live-preview :is(.HyperMD-quote, .cm-callout) + [class='cm-line'],
-.is-live-preview :is(.HyperMD-quote, .cm-callout) + [class='cm-active cm-line'] {
-  line-height: var(--quote-after-line-height) !important;
-}
-/* 调整左侧边框大小与颜色 */
-/* .markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote:before,
-.markdown-source-view.mod-cm6 .cm-blockquote-border:before {
-  border-width: 3px;
-  border-left-color: #d0d7de !important;
-} */

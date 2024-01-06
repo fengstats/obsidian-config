@@ -4,6 +4,32 @@ body {
   --animation: 0.3s ease-in;
 }
 
+/* 编辑模式 */
+.markdown-source-view ol > li,
+.markdown-source-view ul > li,
+.markdown-source-view.mod-cm6 .HyperMD-list-line.cm-line {
+  line-height: 1.55em;
+  margin-left: -0.55em !important;
+}
+
+/* 预览模式 */
+/* 无序列表和任务列表 */
+.markdown-preview-view ul > li {
+  margin-left: -1em !important;
+}
+/* 有序列表 */
+.markdown-preview-view ol > li {
+  margin-left: -0.9em !important;
+}
+/* 任务列表 */
+.markdown-preview-view ul.contains-task-list > li {
+  margin-left: -0.25em !important;
+}
+/* 无意中影响的 CheckList 列表复位 */
+.markdown-preview-view ul li.compact {
+  margin-left: 0 !important;
+}
+
 /* 清除已完成任务列表项的删除线 */
 .markdown-source-view.mod-cm6 .HyperMD-task-line[data-task='x'],
 ul > li.task-list-item[data-task='x'] {
@@ -14,10 +40,12 @@ ul > li.task-list-item[data-task='x'] {
 .markdown-source-view.mod-cm6 .task-list-item-checkbox[data-task=' '] {
   transition: var(--animation);
 }
+
 /* 圆角 */
 .markdown-source-view.mod-cm6 .task-list-item-checkbox {
   border-radius: 50%;
 }
+
 /* 增加边框向内填充收缩留出一个空心点 */
 .markdown-source-view.mod-cm6 .task-list-item-checkbox[data-task=' ']:hover {
   border: 5px solid var(--color-accent);
