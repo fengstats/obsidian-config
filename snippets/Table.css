@@ -16,6 +16,7 @@ body {
 .markdown-rendered table {
   border-collapse: initial;
   border-spacing: 0;
+  border: 0px !important;
 }
 
 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) {
@@ -24,6 +25,7 @@ body {
 }
 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) .table-editor {
   width: 100%;
+  border: 0px;
 }
 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) .table-col-btn {
   border-top-right-radius: var(--table-radius);

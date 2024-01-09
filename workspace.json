@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/01月/01-06 周六.md",
+                "file": "2024/01月/01-09 周二.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -42,12 +42,12 @@
             }
           },
           {
-            "id": "ac8b9dc7acc79e8b",
+            "id": "30936b4896947494",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "任务/看剧.md",
+                "file": "public-note/notes/2024 看完的剧.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/01月/01-06 周六.md",
+                "file": "2024/01月/01-09 周二.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024/01月/01-06 周六.md",
+                "file": "2024/01月/01-09 周二.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "群推荐",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -196,30 +196,36 @@
   },
   "active": "1976e5710ea0b7dc",
   "lastOpenFiles": [
-    "任务/看剧.md",
-    "2024/01月/01-06 周六.md",
     "public-note/notes/2024 看完的剧.md",
-    "tmp/index.md",
-    "任务/清单.md",
-    "public-note/notes/记得要学.md",
-    "template/alipay.md",
-    "2024/01月/01-03 周三.md",
-    "2024/01月/01-02 周二.md",
-    "2024/01月/01-01 周一.md",
+    "任务/看剧.md",
+    "2024/01月/01-09 周二.md",
+    "2024/01月/01-08 周一.md",
     "任务/喝水.md",
+    "任务/清单.md",
+    "2024/每周复盘.md",
+    "2024/01月/01-07 周日.md",
+    "2024/体重记录.md",
+    "2023/12月/12-25 周一.md",
+    "public-note/notes/2023 看完的剧.md",
+    "tmp/index.md",
+    "2024/01月/01-06 周六.md",
+    "任务/attachments/Pasted image 20240108012023.png",
+    "任务/attachments",
     "2024/01月/01-05 周五.md",
     "2024/01月/01-04 周四.md",
-    "2024/每周复盘.md",
-    "2023/每周复盘.md",
+    "2024/01月/01-03 周三.md",
+    "2024/01月/01-02 周二.md",
+    "template/alipay.md",
     "public-note/notes/2023 年终总结.md",
-    "2023/12月/12-29 周五.md",
-    "2024/体重记录.md",
-    "2024-W01.md",
-    "tmp/README.md.md",
+    "inbox/密码本.md",
+    "public-note/notes/一些乱七八糟的推荐.md",
+    "2023/11月/11-19 周日.md",
+    "2023/09月/09-27 周三.md",
+    "inbox/科学上网.md",
+    "2024/01月/01-01 周一.md",
+    "public-note/notes/记得要学.md",
     "tmp/attachments/Pasted image 20240105220602.png",
     "tmp/attachments",
-    "tmp/工程化前端神器—— husky + eslint + prettier - 提升前端代码质量指南.md",
-    "README.md",
     "tmp/snippets/X-Vim.css",
     "tmp/snippets/X-Calendar.css",
     "tmp/snippets/Scrollbar.css",
@@ -228,11 +234,6 @@
     "tmp/snippets/CodeBlock.css",
     "tmp/snippets/BackgroundGrid.css",
     "tmp/snippets/LitstTask.css",
-    "tmp/snippets/Link.css",
-    "public-note/README.md",
-    "public-note/notes/图床解决方案.md",
-    "public-note/notes/常用笔记软件推荐.md",
-    "template/diary.md",
     "2023/06月/attachments/theme-SpacegrayEightiesDark.png",
     "2023/04月/attachments/Pasted image 20230420141243.png",
     "2023/04月/attachments/Pasted image 20230420172958.png",
@@ -240,7 +241,6 @@
     "2023/04月/attachments/Pasted image 20230417160438.png",
     "2023/04月/attachments/Pasted image 20230420035306.png",
     "2023/04月/attachments/Pasted image 20230420141616.png",
-    "2023/04月/attachments/Pasted image 20230420215807.png",
-    "2023/04月/attachments/Pasted image 20230421005621.png"
+    "2023/04月/attachments/Pasted image 20230420215807.png"
   ]
 }

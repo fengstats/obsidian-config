@@ -1,5 +1,7 @@
 body {
-  /* --bold-color: var(--color-accent) !important; */
+  --bold-color: var(--color-accent) !important;
+  /* 底部右侧状态栏 */
+  --status-bar-font-size: 15px;
 
   --gray-0: #eceff4;
   --gray-1: #d8dee9;

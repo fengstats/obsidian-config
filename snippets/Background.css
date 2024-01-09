@@ -11,8 +11,8 @@ body {
 }
 
 /* 磨砂背景：噪点图 + 背景透明 */
-.workspace-leaf-content[data-mode='source'] .view-content::before,
-.markdown-preview-view::before {
+/* .markdown-preview-view::before, */
+.workspace-leaf-content[data-mode='source'] .view-content::before {
   /* .workspace-leaf-content[data-mode='preview'] .view-content::before { */
   position: fixed;
   inset: 0;

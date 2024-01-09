@@ -1,8 +1,8 @@
 {
   "theme": "moonstone",
   "translucency": false,
-  "interfaceFontFamily": "Maple UI",
-  "textFontFamily": "Maple UI",
+  "interfaceFontFamily": "Arial,Maple UI",
+  "textFontFamily": "Maple UI,Comic Sans MS",
   "baseFontSize": 15,
   "enabledCssSnippets": [
     "自定义 微调",
@@ -22,7 +22,6 @@
     "X-Vim",
     "表格行号",
     "Basic",
-    "Table",
     "Title",
     "Scrollbar",
     "Search",
@@ -38,7 +37,7 @@
     "Editor",
     "List",
     "Quote",
-    "Link"
+    "Table"
   ],
   "cssTheme": "AnuPpuccin",
   "accentColor": "",
