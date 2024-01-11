@@ -1,8 +1,8 @@
 {
   "theme": "moonstone",
   "translucency": false,
-  "interfaceFontFamily": "Arial,Maple UI",
-  "textFontFamily": "Maple UI,Comic Sans MS",
+  "interfaceFontFamily": "Arial",
+  "textFontFamily": "",
   "baseFontSize": 15,
   "enabledCssSnippets": [
     "自定义 微调",

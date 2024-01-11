@@ -2,15 +2,17 @@
 body {
   --animation: 200ms ease-in;
   /* 代码块语言表示颜色 */
-  --code-language-color: #ddd;
+  --code-language-color: #fff;
   /* 行内代码颜色 */
   --inline-code: var(--color-red);
   /* mac标题栏灯的透明度 */
   --color-opacity: 1;
   /* mac标题栏背景颜色 */
-  --code-mac-style-header-bg: #222;
+  /* --code-mac-style-header-bg: #222; */
+  --code-mac-style-header-bg: #a4b0be;
   /* 代码块背景颜色 */
-  --code-background: #eee;
+  /* --code-background: #eee; */
+  --code-background: #fff;
   /* 代码块复制按钮颜色 */
   --copy-button-color: #aaa;
   --copy-button-hover-color: var(--code-language-color);
@@ -219,6 +221,7 @@ body:not(:has(.print)) .markdown-rendered pre {
 }
 body:not(:has(.print)) .markdown-rendered pre:hover .copy-code-button {
   opacity: 1;
+  cursor: pointer;
 }
 body:not(:has(.print)) .markdown-rendered pre .copy-code-button {
   width: 1.5rem;

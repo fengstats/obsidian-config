@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/01月/01-09 周二.md",
+                "file": "2024/01月/01-12 周五.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "public-note/notes/2024 看完的剧.md",
+                "file": "public-note/notes/一些乱七八糟的推荐.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/01月/01-09 周二.md",
+                "file": "2024/01月/01-12 周五.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024/01月/01-09 周二.md",
+                "file": "2024/01月/01-12 周五.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,34 +196,37 @@
   },
   "active": "1976e5710ea0b7dc",
   "lastOpenFiles": [
+    "public-note/notes/一些乱七八糟的推荐.md",
+    "2024/01月/01-12 周五.md",
+    "任务/清单.md",
     "public-note/notes/2024 看完的剧.md",
+    "inbox/密码本.md",
+    "2024/01月/01-11 周四.md",
+    "任务/一年之约.md",
     "任务/看剧.md",
+    "inbox/练习单词发音.md",
+    "public-note/notes/JavaScript.md",
+    "tmp/index.md",
+    "public-note/notes/GitHub.md",
+    "public-note/notes/Git.md",
+    "public-note/notes/TypeScript 入门.md",
+    "2024/01月/01-10 周三.md",
     "2024/01月/01-09 周二.md",
     "2024/01月/01-08 周一.md",
     "任务/喝水.md",
-    "任务/清单.md",
-    "2024/每周复盘.md",
-    "2024/01月/01-07 周日.md",
-    "2024/体重记录.md",
-    "2023/12月/12-25 周一.md",
-    "public-note/notes/2023 看完的剧.md",
-    "tmp/index.md",
-    "2024/01月/01-06 周六.md",
-    "任务/attachments/Pasted image 20240108012023.png",
-    "任务/attachments",
-    "2024/01月/01-05 周五.md",
-    "2024/01月/01-04 周四.md",
-    "2024/01月/01-03 周三.md",
-    "2024/01月/01-02 周二.md",
-    "template/alipay.md",
-    "public-note/notes/2023 年终总结.md",
-    "inbox/密码本.md",
-    "public-note/notes/一些乱七八糟的推荐.md",
-    "2023/11月/11-19 周日.md",
-    "2023/09月/09-27 周三.md",
-    "inbox/科学上网.md",
-    "2024/01月/01-01 周一.md",
     "public-note/notes/记得要学.md",
+    "public-note/notes/Anthony Fu - 托尼的一些工具.md",
+    "public-note/notes/2023 年终总结.md",
+    "public-note/notes/Node.md",
+    "2023/12月/12-15 周五.md",
+    "2023/每周复盘.md",
+    "2024/01月/01-02 周二.md",
+    "任务/attachments/Pasted image 20240110151611.png",
+    "任务/attachments",
+    "2024/体重记录.md",
+    "2024/01月/attachments/Pasted image 20240109141347.png",
+    "2024/01月/attachments",
+    "任务/attachments/Pasted image 20240108012023.png",
     "tmp/attachments/Pasted image 20240105220602.png",
     "tmp/attachments",
     "tmp/snippets/X-Vim.css",
@@ -233,14 +236,11 @@
     "tmp/snippets/Table.css",
     "tmp/snippets/CodeBlock.css",
     "tmp/snippets/BackgroundGrid.css",
-    "tmp/snippets/LitstTask.css",
     "2023/06月/attachments/theme-SpacegrayEightiesDark.png",
     "2023/04月/attachments/Pasted image 20230420141243.png",
     "2023/04月/attachments/Pasted image 20230420172958.png",
     "2023/04月/attachments/Pasted image 20230420035153.png",
     "2023/04月/attachments/Pasted image 20230417160438.png",
-    "2023/04月/attachments/Pasted image 20230420035306.png",
-    "2023/04月/attachments/Pasted image 20230420141616.png",
-    "2023/04月/attachments/Pasted image 20230420215807.png"
+    "2023/04月/attachments/Pasted image 20230420035306.png"
   ]
 }
