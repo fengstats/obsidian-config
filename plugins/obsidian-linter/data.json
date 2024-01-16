@@ -108,7 +108,7 @@
       "list-end-style": "."
     },
     "proper-ellipsis": {
-      "enabled": true
+      "enabled": false
     },
     "remove-consecutive-list-markers": {
       "enabled": true
@@ -232,6 +232,13 @@
       "enabled": false,
       "characters-to-remove-space-before": ",!?;:).’”]",
       "characters-to-remove-space-after": "¿¡‘“(["
+    },
+    "add-blank-line-after-yaml": {
+      "enabled": false
+    },
+    "default-language-for-code-fences": {
+      "enabled": false,
+      "default-language": ""
     }
   },
   "lintOnSave": true,
