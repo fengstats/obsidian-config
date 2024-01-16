@@ -40,3 +40,6 @@ body #calendar-container .nav .right-nav .reset-button:hover {
 .calendar tr {
   line-height: 1.2em;
 }
+.workspace-leaf-content[data-type='calendar'] .view-content {
+  padding: 0 4px;
+}

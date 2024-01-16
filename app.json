@@ -4,7 +4,7 @@
   "spellcheck": false,
   "showLineNumber": false,
   "foldHeading": true,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "showInlineTitle": false,
   "smartIndentList": true,
   "strictLineBreaks": false,

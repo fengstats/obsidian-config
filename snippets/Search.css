@@ -63,3 +63,17 @@ body {
 .document-search-close-button:hover::before {
   background-color: var(--text-on-accent);
 }
+
+/* === 悬浮的搜索框 === */
+.float-search-modal {
+  width: 60rem;
+}
+.float-search-modal .fs-content .workspace-split {
+  background-color: transparent !important;
+}
+.float-search-modal .fs-content .workspace-split .workspace-leaf-content {
+  border-width: 0 !important;
+}
+.float-search-modal .fs-content .workspace-split .workspace-leaf-content input {
+  box-shadow: 0 0 0 1px var(--background-modifier-border-focus);
+}

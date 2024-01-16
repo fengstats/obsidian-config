@@ -1,8 +1,5 @@
 body {
-  --bold-color: var(--color-accent) !important;
-  /* 底部右侧状态栏 */
-  --status-bar-font-size: 15px;
-
+  /* 一些颜色 */
   --gray-0: #eceff4;
   --gray-1: #d8dee9;
   --gray-2: #d5d8de;
@@ -13,11 +10,25 @@ body {
   --dark-2: #434c5e;
   --dark-3: #4e5768;
 
+  --bold-color: var(--color-accent) !important;
+  /* 底部右侧状态栏 */
+  --status-bar-font-size: 14px;
+  /* 增加栏宽的固定宽度 */
+  --file-line-width: 720px;
   /* 前后空白行调整 */
   --quote-before-line-height: 0.9;
   --quote-after-line-height: 0.7;
   --blank-line-height: 0.5;
   --hover-color: hsla(var(--color-accent-hsl), 0.4);
+  --background-modifier-border-focus: var(--color-accent) !important;
+}
+
+/* 编辑模式 */
+.workspace-leaf-content[data-mode='source'] .view-content > .cm-s-obsidian > .cm-editor > .cm-scroller,
+/* 预览模式 */
+.markdown-preview-view {
+  padding: 0 10% 0 5%;
+  padding-top: 48px;
 }
 
 /* === 链接 === */

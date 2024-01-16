@@ -8,11 +8,9 @@
   "obsidian-memos",
   "obsidian-excalidraw-plugin",
   "url-into-selection",
-  "cm-chs-patch",
   "obsidian-git",
   "tag-wrangler",
   "obsidian-checklist-plugin",
-  "omnisearch",
   "oz-clear-unused-images",
   "nl-fast-image-cleaner",
   "obsidian-image-auto-upload-plugin",
@@ -20,7 +18,6 @@
   "settings-search",
   "obsidian-quiet-outline",
   "fuzzy-chinese-pinyin",
-  "better-word-count",
   "obsidian-image-toolkit",
-  "dataview"
+  "float-search"
 ]

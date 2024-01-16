@@ -3,13 +3,12 @@
   "global-search",
   "switcher",
   "graph",
-  "backlink",
   "canvas",
   "outgoing-link",
   "tag-pane",
   "daily-notes",
   "templates",
-  "editor-status",
   "random-note",
+  "word-count",
   "file-recovery"
 ]

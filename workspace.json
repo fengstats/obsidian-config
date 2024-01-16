@@ -16,7 +16,7 @@
             }
           },
           {
-            "id": "fef36336b7d78f86",
+            "id": "ccd26aa4f0d402d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -29,12 +29,12 @@
             }
           },
           {
-            "id": "1976e5710ea0b7dc",
+            "id": "6717bcc209eab550",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/01月/01-12 周五.md",
+                "file": "2024/01月/01-16 周二.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -42,12 +42,12 @@
             }
           },
           {
-            "id": "30936b4896947494",
+            "id": "14ca365cd4e2b01c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "public-note/notes/一些乱七八糟的推荐.md",
+                "file": "public-note/notes/2024 看完的剧.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -67,9 +67,10 @@
       {
         "id": "026f4c2ef0003beb",
         "type": "tabs",
+        "dimension": 69.6969696969697,
         "children": [
           {
-            "id": "7296c3fcf5a440ca",
+            "id": "2178ff243119b910",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -77,13 +78,51 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "b715e234755d35dd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "61a9ed3ac81f3a9f",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "99a2d4442f20e464",
+        "type": "tabs",
+        "dimension": 30.303030303030305,
+        "children": [
+          {
+            "id": "a9848dffa55d040f",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 312,
-    "collapsed": true
+    "width": 394
   },
   "right": {
     "id": "ec858ccaf7b88b37",
@@ -105,35 +144,6 @@
             }
           },
           {
-            "id": "6307d677250bfd71",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "2024/01月/01-12 周五.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "081aaec84370a4e6",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "2024/01月/01-12 周五.md",
-                "collapseAll": true,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
             "id": "41d02f57ba333ea9",
             "type": "leaf",
             "state": {
@@ -142,42 +152,23 @@
             }
           },
           {
-            "id": "a9848dffa55d040f",
+            "id": "0392dd5b6ddb0568",
             "type": "leaf",
             "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "86d0b27a06348bce",
-            "type": "leaf",
-            "state": {
-              "type": "search",
+              "type": "outgoing-link",
               "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": true,
-                "sortOrder": "byCreatedTime"
+                "file": "2024/01月/01-16 周二.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               }
-            }
-          },
-          {
-            "id": "61a9ed3ac81f3a9f",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {}
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 431
+    "width": 321
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,58 +180,58 @@
       "oz-clear-unused-images:Clear Unused Images": false,
       "random-note:开始漫游笔记": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "omnisearch:Omnisearch": false,
       "fuzzy-chinese-pinyin:FuzzySearch": false,
+      "float-search:Search Obsidian In Modal": false,
       "obsidian-memos:Memos": false
     }
   },
-  "active": "1976e5710ea0b7dc",
+  "active": "6717bcc209eab550",
   "lastOpenFiles": [
-    "public-note/notes/一些乱七八糟的推荐.md",
-    "2024/01月/01-12 周五.md",
+    "public-note/notes/Obsidian Plugin.md",
     "任务/清单.md",
-    "public-note/notes/2024 看完的剧.md",
-    "inbox/密码本.md",
-    "2024/01月/01-11 周四.md",
-    "任务/一年之约.md",
-    "任务/看剧.md",
-    "inbox/练习单词发音.md",
-    "public-note/notes/JavaScript.md",
-    "tmp/index.md",
-    "public-note/notes/GitHub.md",
+    "2024/01月/01-16 周二.md",
     "public-note/notes/Git.md",
-    "public-note/notes/TypeScript 入门.md",
-    "2024/01月/01-10 周三.md",
-    "2024/01月/01-09 周二.md",
-    "2024/01月/01-08 周一.md",
-    "任务/喝水.md",
-    "public-note/notes/记得要学.md",
-    "public-note/notes/Anthony Fu - 托尼的一些工具.md",
-    "public-note/notes/2023 年终总结.md",
-    "public-note/notes/Node.md",
-    "2023/12月/12-15 周五.md",
-    "2023/每周复盘.md",
-    "2024/01月/01-02 周二.md",
-    "任务/attachments/Pasted image 20240110151611.png",
-    "任务/attachments",
+    "public-note/notes/2024 看完的剧.md",
+    "public-note/notes/Obsidian.md",
+    "2024/01月/01-15 周一.md",
     "2024/体重记录.md",
-    "2024/01月/attachments/Pasted image 20240109141347.png",
-    "2024/01月/attachments",
-    "任务/attachments/Pasted image 20240108012023.png",
-    "tmp/attachments/Pasted image 20240105220602.png",
-    "tmp/attachments",
-    "tmp/snippets/X-Vim.css",
-    "tmp/snippets/X-Calendar.css",
-    "tmp/snippets/Scrollbar.css",
-    "tmp/snippets/Picture.css",
-    "tmp/snippets/Table.css",
-    "tmp/snippets/CodeBlock.css",
-    "tmp/snippets/BackgroundGrid.css",
-    "2023/06月/attachments/theme-SpacegrayEightiesDark.png",
-    "2023/04月/attachments/Pasted image 20230420141243.png",
-    "2023/04月/attachments/Pasted image 20230420172958.png",
-    "2023/04月/attachments/Pasted image 20230420035153.png",
-    "2023/04月/attachments/Pasted image 20230417160438.png",
-    "2023/04月/attachments/Pasted image 20230420035306.png"
+    "public-note/notes/Rime.md",
+    "任务/看剧.md",
+    "template/diary.md",
+    "inbox/Neovim 问题记录.md",
+    "2023/12月/12-09 周六.md",
+    "2024/01月/01-17 Wed.md",
+    "public-note/notes/mini-react 副本.md",
+    "public-note/notes/要记得学.md",
+    "任务/喝水.md",
+    "tmp/index.md",
+    "2024/每周复盘.md",
+    "2021/2021-09.md",
+    "public-note/notes/Node.md",
+    "任务/一年之约.md",
+    "任务/看书.md",
+    "任务/1/一年之约.md",
+    "任务/1/清单.md",
+    "任务/1/看书.md",
+    "任务/1",
+    "2024/1",
+    "2024/01月/1",
+    "2023/09月/09-29 中午干饭.png",
+    "2023/09月/image",
+    "2023/12月",
+    "2023/11月",
+    "2023/10月",
+    "2023/09月",
+    "2023/08月",
+    "2023/07月/attachments",
+    "2023/09月/1/09-29 中午干饭.png",
+    "20/09-29 中午干饭.png",
+    "2023/03月/attachments/Pasted image 20230329102732.png",
+    "2023/03月/attachments/Pasted image 20230323184912.png",
+    "2023/03月/attachments/Pasted image 20230323184206.png",
+    "2023 copy/09月/09-29 中午干饭.png",
+    "2023 copy/06月/attachments/theme-SpacegrayEightiesDark.png",
+    "2023 copy/06月/attachments/06-15 周四_疏通洗手池2.png",
+    "2023 copy/06月/attachments/06-15 周四_疏通洗手池1.png"
   ]
 }

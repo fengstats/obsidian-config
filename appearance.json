@@ -26,9 +26,7 @@
     "Scrollbar",
     "Search",
     "FolderAndFile",
-    "CodeBlock",
     "Tab",
-    "Background",
     "Picture",
     "LitsTask",
     "LitstTask",
@@ -37,7 +35,9 @@
     "Editor",
     "List",
     "Quote",
-    "Table"
+    "Table",
+    "CodeBlock",
+    "Background"
   ],
   "cssTheme": "AnuPpuccin",
   "accentColor": "",

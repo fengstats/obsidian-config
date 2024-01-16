@@ -35,9 +35,9 @@ body {
   --h1-color: #f03f28;
   /* --h2-color: var(--color-accent); */
   --h2-color: #000000;
-  --h3-color: #e4980c;
+  --h3-color: #9084e9;
   --h4-color: #51bc00;
-  --h5-color: #9084e9;
+  --h5-color: #e4980c;
   --h6-color: var(--color-cyan);
 
   --header-indicator-color-h1: var(--h1-color);
