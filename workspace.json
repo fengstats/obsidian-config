@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/01月/01-16 周二.md",
+                "file": "2024/01月/01-17 周三.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -55,7 +55,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -67,7 +67,7 @@
       {
         "id": "026f4c2ef0003beb",
         "type": "tabs",
-        "dimension": 69.6969696969697,
+        "dimension": 65.0137741046832,
         "children": [
           {
             "id": "2178ff243119b910",
@@ -108,7 +108,7 @@
       {
         "id": "99a2d4442f20e464",
         "type": "tabs",
-        "dimension": 30.303030303030305,
+        "dimension": 34.9862258953168,
         "children": [
           {
             "id": "a9848dffa55d040f",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/01月/01-16 周二.md",
+                "file": "任务/清单.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321
+    "width": 341,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,34 +186,36 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "6717bcc209eab550",
+  "active": "ccd26aa4f0d402d2",
   "lastOpenFiles": [
-    "public-note/notes/Obsidian Plugin.md",
-    "任务/清单.md",
+    "2024/01月/01-17 周三.md",
     "2024/01月/01-16 周二.md",
-    "public-note/notes/Git.md",
+    "任务/清单.md",
+    "2024/01月/attachments/Pasted image 20240117042914.png",
+    "2024/01月/attachments",
+    "2024/01月/attachments/Pasted image 20240117042900.png",
     "public-note/notes/2024 看完的剧.md",
+    "2024/体重记录.md",
+    "任务/喝水.md",
+    "public-note/notes/mini-react 副本.md",
+    "任务/看剧.md",
+    "public-note/README.md",
+    "template/diary.md",
+    "public-note/notes/Obsidian Plugin.md",
+    "public-note/notes/Git.md",
     "public-note/notes/Obsidian.md",
     "2024/01月/01-15 周一.md",
-    "2024/体重记录.md",
     "public-note/notes/Rime.md",
-    "任务/看剧.md",
-    "template/diary.md",
     "inbox/Neovim 问题记录.md",
     "2023/12月/12-09 周六.md",
     "2024/01月/01-17 Wed.md",
-    "public-note/notes/mini-react 副本.md",
     "public-note/notes/要记得学.md",
-    "任务/喝水.md",
     "tmp/index.md",
     "2024/每周复盘.md",
     "2021/2021-09.md",
     "public-note/notes/Node.md",
     "任务/一年之约.md",
     "任务/看书.md",
-    "任务/1/一年之约.md",
-    "任务/1/清单.md",
-    "任务/1/看书.md",
     "任务/1",
     "2024/1",
     "2024/01月/1",
@@ -223,15 +226,12 @@
     "2023/10月",
     "2023/09月",
     "2023/08月",
-    "2023/07月/attachments",
     "2023/09月/1/09-29 中午干饭.png",
     "20/09-29 中午干饭.png",
     "2023/03月/attachments/Pasted image 20230329102732.png",
     "2023/03月/attachments/Pasted image 20230323184912.png",
     "2023/03月/attachments/Pasted image 20230323184206.png",
     "2023 copy/09月/09-29 中午干饭.png",
-    "2023 copy/06月/attachments/theme-SpacegrayEightiesDark.png",
-    "2023 copy/06月/attachments/06-15 周四_疏通洗手池2.png",
-    "2023 copy/06月/attachments/06-15 周四_疏通洗手池1.png"
+    "2023 copy/06月/attachments/theme-SpacegrayEightiesDark.png"
   ]
 }
