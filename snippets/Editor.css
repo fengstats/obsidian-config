@@ -23,6 +23,11 @@ body {
   --background-modifier-border-focus: var(--color-accent) !important;
 }
 
+/* Vim 光标动画 */
+.cm-fat-cursor {
+  transition: 0.04s linear;
+}
+
 /* 编辑模式 */
 .workspace-leaf-content[data-mode='source'] .view-content > .cm-s-obsidian > .cm-editor > .cm-scroller,
 /* 预览模式 */
