@@ -77,3 +77,16 @@ body {
 .float-search-modal .fs-content .workspace-split .workspace-leaf-content input {
   box-shadow: 0 0 0 1px var(--background-modifier-border-focus);
 }
+/* 搜索结果排序下拉菜单 */
+.search-results-info .dropdown {
+  font-size: var(--font-ui-smaller);
+}
+/* 指令面板 */
+.prompt {
+  opacity: 0.98;
+}
+/* 隐藏指令描述 */
+.float-search-modal-instructions,
+.prompt .prompt-instructions {
+  display: none;
+}

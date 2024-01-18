@@ -5,5 +5,6 @@ body .workspace-split .workspace-tabs .view-content::before {
   content: '';
   background-size: 182px;
   opacity: 0.028;
+  z-index: -1;
   background-image: url(https://cdn.jsdelivr.net/gh/fengstats/blogcdn@main/2024/noise.png);
 }

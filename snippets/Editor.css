@@ -10,6 +10,11 @@ body {
   --dark-2: #434c5e;
   --dark-3: #4e5768;
 
+  /* 侧边栏目录文件名称、图标字体大小 */
+  --nav-item-size: 1em;
+  --font-ui-medium: 1em;
+  --font-ui-small: 0.94em;
+  --font-ui-smaller: 0.88em;
   --bold-color: var(--color-accent) !important;
   /* 底部右侧状态栏 */
   --status-bar-font-size: 14px;

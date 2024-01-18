@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "任务/清单.md",
+                "file": "inbox/旧清单.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/01月/01-17 周三.md",
+                "file": "2024/01月/01-18 周四.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "public-note/notes/2024 看完的剧.md",
+                "file": "public-note/notes/VSCode.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -55,7 +55,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -67,7 +67,22 @@
       {
         "id": "026f4c2ef0003beb",
         "type": "tabs",
-        "dimension": 65.0137741046832,
+        "dimension": 28.499580888516345,
+        "children": [
+          {
+            "id": "a9848dffa55d040f",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "15d919940ee54e30",
+        "type": "tabs",
+        "dimension": 71.50041911148367,
         "children": [
           {
             "id": "2178ff243119b910",
@@ -75,21 +90,6 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "b715e234755d35dd",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
@@ -103,26 +103,11 @@
             }
           }
         ],
-        "currentTab": 2
-      },
-      {
-        "id": "99a2d4442f20e464",
-        "type": "tabs",
-        "dimension": 34.9862258953168,
-        "children": [
-          {
-            "id": "a9848dffa55d040f",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          }
-        ]
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 394
+    "width": 396.0031967163086
   },
   "right": {
     "id": "ec858ccaf7b88b37",
@@ -132,17 +117,6 @@
         "id": "be683444ea5a2ab2",
         "type": "tabs",
         "children": [
-          {
-            "id": "afa59184a8fda2ec",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": false
-              }
-            }
-          },
           {
             "id": "41d02f57ba333ea9",
             "type": "leaf",
@@ -157,14 +131,39 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "任务/清单.md",
+                "file": "2024/01月/01-18 周四.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "afa59184a8fda2ec",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "b715e234755d35dd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "byCreatedTime"
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -186,36 +185,37 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "ccd26aa4f0d402d2",
+  "active": "6717bcc209eab550",
   "lastOpenFiles": [
+    "public-note/notes/VSCode.md",
+    "2024/01月/01-18 周四.md",
+    "public-note/notes/Mac.md",
     "2024/01月/01-17 周三.md",
+    "任务/喝水.md",
+    "inbox/旧清单.md",
+    "public-note/notes/2024 看完的剧.md",
+    "2024/体重记录.md",
     "2024/01月/01-16 周二.md",
+    "任务/看剧.md",
+    "public-note/notes/图床解决方案.md",
+    "public-note/notes/要记得学.md",
+    "public-note/notes/ChatGPT.md",
     "任务/清单.md",
+    "2024/每周复盘.md",
+    "2024/01月/01-15 周一.md",
+    "任务/一年之约.md",
+    "2024/01月/01-12 周五.md",
     "2024/01月/attachments/Pasted image 20240117042914.png",
     "2024/01月/attachments",
     "2024/01月/attachments/Pasted image 20240117042900.png",
-    "public-note/notes/2024 看完的剧.md",
-    "2024/体重记录.md",
-    "任务/喝水.md",
     "public-note/notes/mini-react 副本.md",
-    "任务/看剧.md",
     "public-note/README.md",
     "template/diary.md",
     "public-note/notes/Obsidian Plugin.md",
     "public-note/notes/Git.md",
     "public-note/notes/Obsidian.md",
-    "2024/01月/01-15 周一.md",
     "public-note/notes/Rime.md",
     "inbox/Neovim 问题记录.md",
-    "2023/12月/12-09 周六.md",
-    "2024/01月/01-17 Wed.md",
-    "public-note/notes/要记得学.md",
-    "tmp/index.md",
-    "2024/每周复盘.md",
-    "2021/2021-09.md",
-    "public-note/notes/Node.md",
-    "任务/一年之约.md",
-    "任务/看书.md",
     "任务/1",
     "2024/1",
     "2024/01月/1",

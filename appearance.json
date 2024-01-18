@@ -3,7 +3,7 @@
   "translucency": false,
   "interfaceFontFamily": "Arial",
   "textFontFamily": "",
-  "baseFontSize": 15,
+  "baseFontSize": 16,
   "enabledCssSnippets": [
     "自定义 微调",
     "LazyCoder",
