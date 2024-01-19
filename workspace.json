@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "inbox/旧清单.md",
+                "file": "任务/清单.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/01月/01-18 周四.md",
+                "file": "2024/01月/01-20 周六.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "public-note/notes/VSCode.md",
+                "file": "public-note/notes/日记时长统计脚本.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/01月/01-18 周四.md",
+                "file": "2024/01月/01-20 周六.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341,
+    "width": 340,
     "collapsed": true
   },
   "left-ribbon": {
@@ -187,35 +187,35 @@
   },
   "active": "6717bcc209eab550",
   "lastOpenFiles": [
-    "public-note/notes/VSCode.md",
-    "2024/01月/01-18 周四.md",
-    "public-note/notes/Mac.md",
-    "2024/01月/01-17 周三.md",
-    "任务/喝水.md",
-    "inbox/旧清单.md",
-    "public-note/notes/2024 看完的剧.md",
-    "2024/体重记录.md",
-    "2024/01月/01-16 周二.md",
-    "任务/看剧.md",
-    "public-note/notes/图床解决方案.md",
-    "public-note/notes/要记得学.md",
-    "public-note/notes/ChatGPT.md",
+    "2024/01月/01-19 周五.md",
+    "2024/01月/01-20 周六.md",
+    "public-note/notes/日记时长统计脚本.md",
+    "public-note/notes/GitHub.md",
     "任务/清单.md",
-    "2024/每周复盘.md",
+    "任务/看剧.md",
+    "public-note/notes/Git.md",
+    "public-note/notes/要记得学.md",
+    "tmp/index.md",
+    "2024/01月/01-18 周四.md",
+    "2024/01月/01-17 周三.md",
+    "public-note/notes/2024 看完的剧.md",
+    "template/diary.md",
+    "2024/01月/01-11 周四.md",
     "2024/01月/01-15 周一.md",
+    "2024/01月/01-16 周二.md",
+    "任务/喝水.md",
+    "public-note/notes/Mac.md",
+    "inbox/旧清单.md",
+    "public-note/notes/看完文章想写点东西.md",
+    "public-note/notes/VSCode.md",
+    "2024/体重记录.md",
+    "public-note/notes/图床解决方案.md",
+    "public-note/notes/ChatGPT.md",
+    "2024/每周复盘.md",
     "任务/一年之约.md",
-    "2024/01月/01-12 周五.md",
     "2024/01月/attachments/Pasted image 20240117042914.png",
     "2024/01月/attachments",
     "2024/01月/attachments/Pasted image 20240117042900.png",
-    "public-note/notes/mini-react 副本.md",
-    "public-note/README.md",
-    "template/diary.md",
-    "public-note/notes/Obsidian Plugin.md",
-    "public-note/notes/Git.md",
-    "public-note/notes/Obsidian.md",
-    "public-note/notes/Rime.md",
-    "inbox/Neovim 问题记录.md",
     "任务/1",
     "2024/1",
     "2024/01月/1",

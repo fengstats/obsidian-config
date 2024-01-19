@@ -50,10 +50,11 @@ ul > li.task-list-item[data-task='x'] {
 
 /* 圆角 */
 .markdown-source-view.mod-cm6 .task-list-item-checkbox {
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 
 /* 增加边框向内填充收缩留出一个空心点 */
 .markdown-source-view.mod-cm6 .task-list-item-checkbox[data-task=' ']:hover {
   border: 5px solid var(--color-accent);
+  border-radius: 10px;
 }

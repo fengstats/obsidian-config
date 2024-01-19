@@ -20,9 +20,6 @@ body {
   --status-bar-font-size: 14px;
   /* 增加栏宽的固定宽度 */
   --file-line-width: 720px;
-  /* 前后空白行调整 */
-  --quote-before-line-height: 0.9;
-  --quote-after-line-height: 0.7;
   --blank-line-height: 0.5;
   --hover-color: hsla(var(--color-accent-hsl), 0.4);
   --background-modifier-border-focus: var(--color-accent) !important;

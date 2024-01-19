@@ -1,3 +1,9 @@
+body {
+  /* 前后空白行调整 */
+  --quote-before-line-height: 1;
+  --quote-after-line-height: 0.8;
+}
+
 /* 降低 `>` 符号存在度 */
 .HyperMD-quote .cm-formatting-quote {
   color: var(--gray-3) !important;
@@ -9,7 +15,7 @@
   padding: 0 0 0 0.8em;
   background-color: transparent;
   /* 渐变背景色 */
-  background: linear-gradient(to right, hsla(var(--color-accent-hsl), 0.08), transparent);
+  /* background: linear-gradient(to right, hsla(var(--color-accent-hsl), 0.08), transparent); */
 }
 
 /* 直接缩减行高 */
