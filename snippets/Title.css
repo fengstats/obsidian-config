@@ -28,6 +28,7 @@ h2,
   ) 1; */
 }
 
+
 body {
   --font-bold: bold;
 
@@ -78,6 +79,11 @@ body {
   --h6-line-height: var(--line-height-normal);
 
   --animation: var(--anim-duration-fast) var(--anim-motion-smooth);
+}
+
+/* 暗黑模式 */
+body.theme-dark {
+  --h2-color: #ffffff;
 }
 
 /* 添加左侧 hover 图标，显示当前标题等级 */

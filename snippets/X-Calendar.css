@@ -37,6 +37,14 @@ body #calendar-container .nav .right-nav .reset-button:hover {
 .calendar .has-note.active .hollow {
   stroke: #fff;
 }
+
+.theme-dark .calendar .has-note.active .filled {
+  fill: #000 !important;
+}
+.theme-dark .calendar .has-note.active .hollow {
+  stroke: #000;
+}
+
 .calendar tr {
   line-height: 1.2em;
 }

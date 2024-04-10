@@ -5,13 +5,18 @@
   "autoRefresh": true,
   "subGroups": false,
   "groupBy": "page",
-  "sortDirectionItems": "old->new",
+  "sortDirectionItems": "new->old",
   "sortDirectionGroups": "a->z",
   "sortDirectionSubGroups": "new->old",
-  "includeFiles": "{,任务/**,2024/01月/**}",
+  "includeFiles": "{,任务/**,2024/04月/**}",
   "lookAndFeel": "compact",
   "_collapsedSections": [
-    "2024/01月/01-04 周四.md"
+    "2024/01月/01-04 周四.md",
+    "2024/01月/01-21 周日.md",
+    "任务/看剧.md",
+    "任务/一年之约.md",
+    "2024/04月/04-07 周日.md",
+    "任务/清单.md"
   ],
   "_hiddenTags": []
 }

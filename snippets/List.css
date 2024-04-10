@@ -42,6 +42,10 @@ body {
 ul > li.task-list-item[data-task='x'] {
   text-decoration: none;
 }
+.theme-dark .markdown-source-view.mod-cm6 .HyperMD-task-line[data-task='x'],
+.theme-dark ul > li.task-list-item[data-task='x'] {
+  opacity: 0.5;
+}
 
 /* live preview 时才有动画 */
 .markdown-source-view.mod-cm6 .task-list-item-checkbox[data-task=' '] {

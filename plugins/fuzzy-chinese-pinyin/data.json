@@ -31,13 +31,16 @@
       "pdf"
     ],
     "usePathToSearch": true,
-    "useFileEditorSuggest": false,
+    "useFileEditorSuggest": true,
     "showPath": true,
     "showTags": false,
     "historyDisplay": "使用完整路径"
   },
+  "command": {
+    "pinnedCommands": []
+  },
   "other": {
     "useTagEditorSuggest": false,
-    "devMode": false
+    "devMode": true
   }
 }

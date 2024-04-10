@@ -1,7 +1,7 @@
 body {
   /* 前后空白行调整 */
-  --quote-before-line-height: 1;
-  --quote-after-line-height: 0.8;
+  /* --quote-before-line-height: 1;
+  --quote-after-line-height: 0.8; */
 }
 
 /* 降低 `>` 符号存在度 */
@@ -13,10 +13,12 @@ body {
 .markdown-rendered blockquote {
   color: var(--dark-3);
   padding: 0 0 0 0.8em;
-  background-color: transparent;
+  /* background-color: transparent; */
   /* 渐变背景色 */
   /* background: linear-gradient(to right, hsla(var(--color-accent-hsl), 0.08), transparent); */
+  background: transparent;
 }
+
 
 /* 直接缩减行高 */
 .is-live-preview [class='cm-line']:has(+ :is(.HyperMD-quote, .cm-callout)),
@@ -29,8 +31,8 @@ body {
 }
 
 /* 调整左侧竖线大小与颜色 */
-/* .markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote:before,
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote:before,
 .markdown-source-view.mod-cm6 .cm-blockquote-border:before {
   border-width: 3px;
   border-left-color: #d0d7de !important;
-} */
+}

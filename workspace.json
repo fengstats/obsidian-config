@@ -16,7 +16,7 @@
             }
           },
           {
-            "id": "ccd26aa4f0d402d2",
+            "id": "c42d75d46bd67ca1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -29,12 +29,12 @@
             }
           },
           {
-            "id": "6717bcc209eab550",
+            "id": "e42ced93fd2e4ffb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/01月/01-20 周六.md",
+                "file": "2024/04月/04-10 周三.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -42,12 +42,12 @@
             }
           },
           {
-            "id": "14ca365cd4e2b01c",
+            "id": "d1281657d83529bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "public-note/notes/日记时长统计脚本.md",
+                "file": "inbox/Earthworm 开发/2024-04-10.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -65,24 +65,9 @@
     "type": "split",
     "children": [
       {
-        "id": "026f4c2ef0003beb",
-        "type": "tabs",
-        "dimension": 28.499580888516345,
-        "children": [
-          {
-            "id": "a9848dffa55d040f",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
         "id": "15d919940ee54e30",
         "type": "tabs",
-        "dimension": 71.50041911148367,
+        "dimension": 67.52921535893155,
         "children": [
           {
             "id": "2178ff243119b910",
@@ -95,19 +80,33 @@
             }
           },
           {
-            "id": "61a9ed3ac81f3a9f",
+            "id": "83882699ec919549",
             "type": "leaf",
             "state": {
               "type": "todo",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "b175513a612fbc93",
+        "type": "tabs",
+        "dimension": 32.47078464106845,
+        "children": [
+          {
+            "id": "1838824683168906",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 396.0031967163086
+    "width": 410
   },
   "right": {
     "id": "ec858ccaf7b88b37",
@@ -131,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/01月/01-20 周六.md",
+                "file": "2024/04月/04-10 周三.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,71 +166,70 @@
       }
     ],
     "direction": "horizontal",
-    "width": 340,
-    "collapsed": true
+    "width": 396
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": true,
-      "graph:查看关系图谱": true,
-      "canvas:新建白板": true,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": true,
-      "oz-clear-unused-images:Clear Unused Images": false,
+      "templates:插入模板": false,
       "random-note:开始漫游笔记": false,
+      "workspaces:管理工作区布局": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "oz-clear-unused-images:Clear Unused Images": false,
       "fuzzy-chinese-pinyin:FuzzySearch": false,
       "float-search:Search Obsidian In Modal": false,
       "obsidian-memos:Memos": false
     }
   },
-  "active": "6717bcc209eab550",
+  "active": "e42ced93fd2e4ffb",
   "lastOpenFiles": [
-    "2024/01月/01-19 周五.md",
-    "2024/01月/01-20 周六.md",
-    "public-note/notes/日记时长统计脚本.md",
-    "public-note/notes/GitHub.md",
+    "inbox/Earthworm 开发/2024-04-10.md",
+    "inbox/Earthworm 开发/attachments/Pasted image 20240410122418.png",
+    "inbox/Earthworm 开发/2024-04-03.md",
+    "inbox/Earthworm 开发/2024-04-09.md",
+    "inbox/Earthworm 开发/2024-04-08.md",
+    "inbox/Earthworm 开发/2024-04-07.md",
+    "inbox/Earthworm 开发/2024-04-05.md",
+    "inbox/Earthworm 开发/2024-04-04.md",
+    "inbox/Earthworm 开发/2024-04-02.md",
+    "inbox/Earthworm 开发/2024-04-01.md",
+    "inbox/Earthworm 开发/2024-03-31.md",
+    "inbox/Earthworm 开发/汇总记录.md",
+    "inbox/Earthworm 开发/2024-03-30.md",
+    "inbox/Earthworm 开发/2024-03-29.md",
+    "inbox/Earthworm 开发/2024-03-28.md",
+    "public-note/posts/Rime.md",
+    "2024/04月/04-10 周三.md",
     "任务/清单.md",
-    "任务/看剧.md",
-    "public-note/notes/Git.md",
-    "public-note/notes/要记得学.md",
-    "tmp/index.md",
-    "2024/01月/01-18 周四.md",
-    "2024/01月/01-17 周三.md",
-    "public-note/notes/2024 看完的剧.md",
-    "template/diary.md",
-    "2024/01月/01-11 周四.md",
-    "2024/01月/01-15 周一.md",
-    "2024/01月/01-16 周二.md",
+    "2024/04月/04-09 周二.md",
     "任务/喝水.md",
-    "public-note/notes/Mac.md",
-    "inbox/旧清单.md",
-    "public-note/notes/看完文章想写点东西.md",
-    "public-note/notes/VSCode.md",
-    "2024/体重记录.md",
-    "public-note/notes/图床解决方案.md",
-    "public-note/notes/ChatGPT.md",
-    "2024/每周复盘.md",
-    "任务/一年之约.md",
-    "2024/01月/attachments/Pasted image 20240117042914.png",
-    "2024/01月/attachments",
-    "2024/01月/attachments/Pasted image 20240117042900.png",
-    "任务/1",
-    "2024/1",
-    "2024/01月/1",
-    "2023/09月/09-29 中午干饭.png",
-    "2023/09月/image",
-    "2023/12月",
-    "2023/11月",
-    "2023/10月",
-    "2023/09月",
-    "2023/08月",
-    "2023/09月/1/09-29 中午干饭.png",
-    "20/09-29 中午干饭.png",
-    "2023/03月/attachments/Pasted image 20230329102732.png",
-    "2023/03月/attachments/Pasted image 20230323184912.png",
-    "2023/03月/attachments/Pasted image 20230323184206.png",
-    "2023 copy/09月/09-29 中午干饭.png",
-    "2023 copy/06月/attachments/theme-SpacegrayEightiesDark.png"
+    "inbox/Earthworm 开发/attachments/Pasted image 20240409223237.png",
+    "public-note/posts/要记得学.md",
+    "public-note/posts/Mac.md",
+    "public-note/posts/直播项目服务配置.md",
+    "inbox/Earthworm 开发/attachments/Pasted image 20240409174644.png",
+    "inbox/Earthworm 开发/attachments/Pasted image 20240409172526.png",
+    "2024/04月/04-08 周一.md",
+    "inbox/Earthworm 开发/attachments/Pasted image 20240408233604.png",
+    "inbox/Earthworm 开发/attachments/Pasted image 20240408230647.png",
+    "inbox/Earthworm 开发/attachments/Pasted image 20240408230244.png",
+    "inbox/Earthworm 开发/attachments/Pasted image 20240408223614.png",
+    "inbox/Earthworm 开发/attachments/Pasted image 20240408223052.png",
+    "inbox/Earthworm 开发/attachments/Pasted image 20240408221812.png",
+    "2024/02月/02-03 周六.md",
+    "2024/04月/04-07 周日.md",
+    "2024/04月/attachments",
+    "2024/04月",
+    "inbox/Earthworm 开发/attachments",
+    "inbox/Earthworm 开发",
+    "2024/03月",
+    "2024/02月/1",
+    "index.js",
+    "2024/02月",
+    "2024/01月/test.css",
+    "2024/01月/test"
   ]
 }

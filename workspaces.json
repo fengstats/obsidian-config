@@ -1,1 +1,415 @@
-{}
+{
+  "workspaces": {
+    "周复盘": {
+      "main": {
+        "id": "4b3af02f2678a5a5",
+        "type": "split",
+        "children": [
+          {
+            "id": "b2b43d4c52716ce7",
+            "type": "split",
+            "dimension": 38.53056646102075,
+            "children": [
+              {
+                "id": "6c5810bc181a4af6",
+                "type": "tabs",
+                "dimension": 17.77032690695725,
+                "children": [
+                  {
+                    "id": "1838824683168906",
+                    "type": "leaf",
+                    "state": {
+                      "type": "calendar",
+                      "state": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "222d233328158daa",
+                "type": "tabs",
+                "dimension": 82.22967309304275,
+                "children": [
+                  {
+                    "id": "69f542f36cb178ca",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "2024/01月/01-15 周一.md",
+                        "mode": "source",
+                        "backlinks": false,
+                        "source": false
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "direction": "horizontal"
+          },
+          {
+            "id": "1542805c219b2eeb",
+            "type": "tabs",
+            "dimension": 61.469433538979246,
+            "children": [
+              {
+                "id": "e51f1a2562e471bd",
+                "type": "leaf",
+                "state": {
+                  "type": "memos_view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "c8b6f68da2d240fa",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2024/每周复盘.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "a6d169cf335d1592",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2024/01月/01-26 周五.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "14ca365cd4e2b01c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "public-note/posts/VSCode.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "76c8c1cd9b5d9a9f",
+        "type": "split",
+        "children": [
+          {
+            "id": "15d919940ee54e30",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2178ff243119b910",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "61a9ed3ac81f3a9f",
+                "type": "leaf",
+                "state": {
+                  "type": "todo",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 363.0031967163086,
+        "collapsed": true
+      },
+      "right": {
+        "id": "ec858ccaf7b88b37",
+        "type": "split",
+        "children": [
+          {
+            "id": "be683444ea5a2ab2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "41d02f57ba333ea9",
+                "type": "leaf",
+                "state": {
+                  "type": "quiet-outline",
+                  "state": {}
+                }
+              },
+              {
+                "id": "0392dd5b6ddb0568",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "2024/每周复盘.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "afa59184a8fda2ec",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": false
+                  }
+                }
+              },
+              {
+                "id": "b715e234755d35dd",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "byCreatedTime"
+                  }
+                }
+              }
+            ],
+            "currentTab": 3
+          }
+        ],
+        "direction": "horizontal",
+        "width": 360,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:打开快速切换": true,
+          "graph:查看关系图谱": true,
+          "canvas:新建白板": true,
+          "daily-notes:打开/创建今天的日记": false,
+          "templates:插入模板": true,
+          "random-note:开始漫游笔记": false,
+          "obsidian-excalidraw-plugin:新建绘图文件": false,
+          "oz-clear-unused-images:Clear Unused Images": false,
+          "fuzzy-chinese-pinyin:FuzzySearch": false,
+          "float-search:Search Obsidian In Modal": false,
+          "obsidian-memos:Memos": false,
+          "workspaces:管理工作区布局": false
+        }
+      },
+      "active": "c8b6f68da2d240fa"
+    },
+    "日常": {
+      "main": {
+        "id": "4b3af02f2678a5a5",
+        "type": "split",
+        "children": [
+          {
+            "id": "1542805c219b2eeb",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e51f1a2562e471bd",
+                "type": "leaf",
+                "state": {
+                  "type": "memos_view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "c8b6f68da2d240fa",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "任务/清单.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "a6d169cf335d1592",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2024/01月/01-30 周二.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "c2c831d763478ad4",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "public-note/posts/2024 看完的剧.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "76c8c1cd9b5d9a9f",
+        "type": "split",
+        "children": [
+          {
+            "id": "0a1bbb4a4f70dd78",
+            "type": "tabs",
+            "dimension": 28.331936295054483,
+            "children": [
+              {
+                "id": "1838824683168906",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "15d919940ee54e30",
+            "type": "tabs",
+            "dimension": 71.66806370494552,
+            "children": [
+              {
+                "id": "2178ff243119b910",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "61a9ed3ac81f3a9f",
+                "type": "leaf",
+                "state": {
+                  "type": "todo",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 363.0031967163086
+      },
+      "right": {
+        "id": "ec858ccaf7b88b37",
+        "type": "split",
+        "children": [
+          {
+            "id": "be683444ea5a2ab2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "41d02f57ba333ea9",
+                "type": "leaf",
+                "state": {
+                  "type": "quiet-outline",
+                  "state": {}
+                }
+              },
+              {
+                "id": "0392dd5b6ddb0568",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "2024/01月/01-30 周二.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "afa59184a8fda2ec",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": false
+                  }
+                }
+              },
+              {
+                "id": "b715e234755d35dd",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "byCreatedTime"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 302.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:打开快速切换": true,
+          "graph:查看关系图谱": true,
+          "canvas:新建白板": true,
+          "daily-notes:打开/创建今天的日记": false,
+          "templates:插入模板": true,
+          "random-note:开始漫游笔记": false,
+          "obsidian-excalidraw-plugin:新建绘图文件": false,
+          "oz-clear-unused-images:Clear Unused Images": false,
+          "fuzzy-chinese-pinyin:FuzzySearch": false,
+          "float-search:Search Obsidian In Modal": false,
+          "obsidian-memos:Memos": false,
+          "workspaces:管理工作区布局": false
+        }
+      },
+      "active": "a6d169cf335d1592"
+    }
+  },
+  "active": "日常"
+}

@@ -16,6 +16,12 @@
   --checklist-contentPadding--compact: 0;
   --animation: 0.1s ease-in;
 }
+
+.theme-dark .checklist-plugin-main {
+  --checklist-listItemBackground: #313243;
+  --checklist-listItemBackground--hover: #444658;
+}
+
 /* 搜索 */
 .checklist-plugin-main .container .search {
   border-radius: 0 !important;
@@ -43,6 +49,10 @@
   font-size: 1.06em;
   border: 1px solid #dbdbdc;
 }
+.theme-dark .checklist-plugin-main .group li {
+  border: 1px solid transparent;
+}
+
 /* 任务列表内单行省略号显示 */
 .checklist-plugin-main .compact .content {
   min-width: 0;

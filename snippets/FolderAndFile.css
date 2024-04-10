@@ -74,9 +74,9 @@ body {
 }
 
 /* 隐藏笔记标题，碍眼 */
-.nav-folder.mod-root > .nav-folder-title {
+/* .nav-folder.mod-root > .nav-folder-title {
   display: none;
-}
+} */
 
 /* 目录图标 */
 .nav-folder-children .nav-folder-title-content,

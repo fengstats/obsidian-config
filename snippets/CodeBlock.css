@@ -1,3 +1,7 @@
 body {
   --code-background: #fff;
 }
+
+body.theme-dark {
+  --code-background: #11111a;
+}

@@ -67,6 +67,8 @@ body {
 /* === 悬浮的搜索框 === */
 .float-search-modal {
   width: 60rem;
+  /* margin-top: -10rem; */
+  height: 88vh;
 }
 .float-search-modal .fs-content .workspace-split {
   background-color: transparent !important;

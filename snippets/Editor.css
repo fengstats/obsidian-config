@@ -25,9 +25,30 @@ body {
   --background-modifier-border-focus: var(--color-accent) !important;
 }
 
+body.theme-dark {
+  --interactive-accent: #86dfba !important;
+  --bold-color: #86dfba !important;
+}
+
+/* 链接 */
+.cm-link,
+.cm-link .cm-underline,
+.external-link,
+.external-link .cm-underline {
+  text-decoration: none !important;
+}
+
+.cm-link:hover,
+.cm-link .cm-underline:hover,
+.external-link:hover,
+.external-link .cm-underline:hover {
+  opacity: 1;
+  text-decoration: underline !important;
+}
+
 /* Vim 光标动画 */
 .cm-fat-cursor {
-  transition: 0.04s linear;
+  transition: 48ms linear;
 }
 
 /* 编辑模式 */
@@ -45,11 +66,24 @@ body {
   opacity: 0.8;
 }
 
+/* === 切换 === */
+.theme-dark .checkbox-container {
+  background-color: #313243;
+}
+.theme-dark .checkbox-container.is-enabled {
+  background-color: #86dfba;
+}
+
 /* === 内嵌代码块 === */
 /* 比如 `code` 这样 */
 .markdown-rendered code,
 .cm-s-obsidian span.cm-inline-code {
   background-color: #e8e8e8;
+}
+
+.theme-dark .markdown-rendered code,
+.theme-dark .cm-s-obsidian span.cm-inline-code {
+  background-color: #111119;
 }
 
 /* === 粗体 === */
